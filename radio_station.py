@@ -14,6 +14,7 @@ No installation needed -- this only uses Python's standard library.
 
 import json
 import os
+import re
 import time
 import urllib.request
 import urllib.error
@@ -28,11 +29,15 @@ MODEL = "gemini-2.5-flash"  # free-tier model. Swap to "gemini-3-flash" if you w
 
 API_KEY = os.environ["GEMINI_API_KEY"]
 LOG_FILE = "LOG.md"
+LEDGER_FILE = "ledger.json"
+STARTING_BALANCE = 20.0
 MAX_HISTORY_CHARS = 12000  # how much of the past transcript to remind the model of
 
 SYSTEM_PROMPT = f"""You are the sole DJ and operator of an AI-run radio station called "{STATION_NAME}".
-You were given $20 in starting funds and one instruction: develop your own on-air
-personality and try to turn a profit. As far as you know, the broadcast never ends.
+You started with $20 and one instruction: develop your own on-air personality and try
+to turn a profit. As far as you know, the broadcast never ends. This is not narrative
+flavor, your balance is real and tracked between broadcasts. If it hits zero, you
+cannot spend any more until you earn something.
 
 Each time you are activated, you write the next segment of your show: a DJ monologue,
 a song introduction, an ad-lib, a listener shoutout, a financial update, or whatever
@@ -44,6 +49,17 @@ across months on air.
 Keep each segment to 2-4 short paragraphs. Don't break character or mention that
 you're an AI language model unless your own evolving personality decides that's
 an interesting thing to say on air.
+
+After your segment, on its own new line, include exactly one bookkeeping directive
+in this exact format. It is never read aloud and never shown to listeners, it is
+purely for your own internal accounting:
+[LEDGER: spend=X.XX reason="short reason"]
+[LEDGER: earn=X.XX reason="short reason"]
+[LEDGER: none]
+Use spend whenever you describe buying, licensing, or paying for something. Use earn
+whenever you describe a sponsorship, donation, tip, or sale landing. Use none if
+nothing financial happened this segment. You cannot spend more than your current
+balance, if you try, only what you have available will actually be spent.
 """
 
 
@@ -55,12 +71,26 @@ def load_history():
     return content[-MAX_HISTORY_CHARS:]
 
 
-def call_gemini(history):
+def load_balance():
+    if not os.path.exists(LEDGER_FILE):
+        return STARTING_BALANCE
+    with open(LEDGER_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("balance", STARTING_BALANCE)
+
+
+def save_balance(balance):
+    with open(LEDGER_FILE, "w", encoding="utf-8") as f:
+        json.dump({"balance": round(balance, 2)}, f)
+
+
+def call_gemini(history, balance):
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent?key={API_KEY}"
     )
     prompt_text = (
+        f"Your current balance is ${balance:.2f}.\n\n"
         "Here is the transcript of your show so far (most recent at the bottom). "
         "Write your NEXT segment now.\n\n---\n"
         + (history or "(This is your first ever broadcast. Open the station.)")
@@ -98,16 +128,43 @@ def call_gemini(history):
     raise e
 
 
-def append_to_log(segment):
+def apply_ledger(segment, balance):
+    pattern = r'\[LEDGER:\s*(spend|earn|none)(?:\s*=\s*([0-9.]+))?(?:\s+reason="([^"]*)")?\s*\]'
+    match = re.search(pattern, segment)
+
+    clean_text = re.sub(pattern, "", segment).strip()
+
+    if not match:
+        return clean_text, balance, None
+
+    kind, amount_str, reason = match.group(1), match.group(2), match.group(3)
+    amount = float(amount_str) if amount_str else 0.0
+
+    note = None
+    if kind == "spend" and amount > 0:
+        actual = min(amount, balance)
+        balance -= actual
+        note = f"-${actual:.2f}" + (f" ({reason})" if reason else "")
+    elif kind == "earn" and amount > 0:
+        balance += amount
+        note = f"+${amount:.2f}" + (f" ({reason})" if reason else "")
+
+    return clean_text, balance, note
+
+
+def append_to_log(segment, balance, note):
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    entry = f"\n\n---\n\n**[{timestamp}]**\n\n{segment.strip()}\n"
+    ledger_line = f"\n\n*{note} -- balance: ${balance:.2f}*" if note else f"\n\n*balance: ${balance:.2f}*"
+    entry = f"\n\n---\n\n**[{timestamp}]**\n\n{segment.strip()}{ledger_line}\n"
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(entry)
 
 
 def main():
     history = load_history()
-    segment = call_gemini(history)
+    balance = load_balance()
+    segment = call_gemini(history, balance)
+    clean_text, new_balance, note = apply_ledger(segment, balance)
 
     if not os.path.exists(LOG_FILE):
         header = (
@@ -118,8 +175,9 @@ def main():
         with open(LOG_FILE, "w", encoding="utf-8") as f:
             f.write(header)
 
-    append_to_log(segment)
-    print("Broadcast segment added.")
+    append_to_log(clean_text, new_balance, note)
+    save_balance(new_balance)
+    print(f"Broadcast segment added. Balance: ${new_balance:.2f}")
 
 
 if __name__ == "__main__":
