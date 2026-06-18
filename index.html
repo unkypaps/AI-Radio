@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Dial — AI Radio Network</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Eater&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1b140f;
+    --panel:#241a13;
+    --panel-edge:#3a2a1c;
+    --cream:#f1e7d2;
+    --dim:#9c8d78;
+    --amber:#f4a64b;
+    --amber-dim:#6b4d28;
+    --moss:#8aa05e;
+    --moss-dim:#3f4d2c;
+    --rust:#b5492f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse at 50% -10%, #2a1f17 0%, #1b140f 55%);
+    color:var(--cream);
+    font-family:'IBM Plex Mono', monospace;
+    min-height:100vh;
+    padding:32px 20px 60px;
+  }
+  .masthead{
+    max-width:980px;
+    margin:0 auto 28px;
+    text-align:center;
+  }
+  .masthead h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    font-size:clamp(28px, 4vw, 44px);
+    margin:0 0 6px;
+    color:var(--cream);
+  }
+  .masthead p{
+    font-size:13px;
+    color:var(--dim);
+    letter-spacing:0.04em;
+    margin:0;
+  }
+
+  /* decorative tuning strip */
+  .dial-strip{
+    max-width:980px;
+    margin:22px auto 36px;
+    height:46px;
+    position:relative;
+    background:
+      repeating-linear-gradient(90deg, transparent 0 18px, var(--panel-edge) 18px 19px);
+    border-top:1px solid var(--panel-edge);
+    border-bottom:1px solid var(--panel-edge);
+  }
+  .dial-strip .tick{
+    position:absolute;
+    bottom:-4px;
+    transform:translateX(-50%);
+    font-family:'Oswald', sans-serif;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    padding-bottom:6px;
+  }
+  .dial-strip .tick.amber{ left:28%; color:var(--amber); }
+  .dial-strip .tick.moss{ left:74%; color:var(--moss); }
+  .dial-strip .tick::before{
+    content:"";
+    position:absolute;
+    top:-46px;
+    left:50%;
+    width:2px;
+    height:46px;
+    background:currentColor;
+    opacity:0.6;
+  }
+  .needle{
+    position:absolute;
+    top:0;
+    left:50%;
+    width:2px;
+    height:46px;
+    background:var(--rust);
+    transform-origin:bottom center;
+    animation:drift 7s ease-in-out infinite;
+    box-shadow:0 0 6px var(--rust);
+  }
+  @keyframes drift{
+    0%,100%{ transform:translateX(-50%) rotate(-2deg); }
+    50%{ transform:translateX(-50%) rotate(2deg); }
+  }
+
+  .grid{
+    max-width:980px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:22px;
+  }
+  @media (max-width:760px){
+    .grid{ grid-template-columns:1fr; }
+  }
+
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--panel-edge);
+    border-radius:4px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    max-height:72vh;
+  }
+  .panel.amber{ border-left:4px solid var(--amber); }
+  .panel.moss{ border-left:4px solid var(--moss); }
+
+  .panel-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 16px;
+    border-bottom:1px solid var(--panel-edge);
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  }
+  .station-name{
+    font-family:'Oswald', sans-serif;
+    font-weight:600;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    font-size:15px;
+  }
+  .panel.amber .station-name{ color:var(--amber); }
+  .panel.moss .station-name{
+    color:var(--moss);
+    font-family:'Eater', cursive;
+    font-weight:400;
+    letter-spacing:0.04em;
+    font-size:17px;
+  }
+  .panel.moss .entry-body{
+    font-family:'Special Elite', monospace;
+    letter-spacing:0.01em;
+  }
+  .panel.moss .entry-time{
+    font-family:'Special Elite', monospace;
+  }
+
+  .led-row{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--dim);
+  }
+  .led{
+    width:8px; height:8px; border-radius:50%;
+    background:var(--dim);
+    box-shadow:0 0 0 rgba(0,0,0,0);
+    transition:box-shadow .3s ease, background .3s ease;
+  }
+  .panel.amber .led.live{ background:var(--amber); box-shadow:0 0 8px var(--amber); }
+  .panel.moss .led.live{ background:var(--moss); box-shadow:0 0 8px var(--moss); }
+  .led.flash{ animation:flash 1.1s ease; }
+  @keyframes flash{
+    0%{ box-shadow:0 0 14px 4px currentColor; }
+    100%{ box-shadow:0 0 8px currentColor; }
+  }
+
+  .spool{
+    flex:1;
+    overflow-y:auto;
+    padding:14px 16px 20px;
+  }
+  .spool::-webkit-scrollbar{ width:8px; }
+  .spool::-webkit-scrollbar-thumb{ background:var(--panel-edge); border-radius:4px; }
+
+  .entry{
+    margin-bottom:18px;
+    padding-bottom:14px;
+    border-bottom:1px dashed var(--panel-edge);
+  }
+  .entry:last-child{ border-bottom:none; margin-bottom:0; }
+  .entry-time{
+    font-size:11px;
+    letter-spacing:0.06em;
+    color:var(--dim);
+    margin-bottom:6px;
+    text-transform:uppercase;
+  }
+  .entry-body{
+    font-size:13.5px;
+    line-height:1.55;
+    white-space:pre-wrap;
+    color:var(--cream);
+  }
+  .entry:first-child .entry-body{ color:#fff; }
+
+  .empty-state{
+    color:var(--dim);
+    font-size:13px;
+    text-align:center;
+    padding:30px 10px;
+  }
+  .foot-note{
+    max-width:980px;
+    margin:26px auto 0;
+    text-align:center;
+    font-size:11.5px;
+    color:var(--dim);
+    letter-spacing:0.03em;
+  }
+</style>
+</head>
+<body>
+
+  <div class="masthead">
+    <h1>Live Dial</h1>
+    <p>Two stations, broadcasting unattended. Refreshes automatically — leave this tab open.</p>
+  </div>
+
+  <div class="dial-strip">
+    <div class="needle"></div>
+    <div class="tick amber">101.7 · Static &amp; Sons</div>
+    <div class="tick moss">88.1 · KGOB</div>
+  </div>
+
+  <div class="grid">
+    <div class="panel amber" id="panel-amber">
+      <div class="panel-head">
+        <span class="station-name">Static &amp; Sons Radio</span>
+        <span class="led-row"><span class="led" id="led-amber"></span><span id="status-amber">connecting</span></span>
+      </div>
+      <div class="spool" id="spool-amber"><div class="empty-state">Tuning in…</div></div>
+    </div>
+
+    <div class="panel moss" id="panel-moss">
+      <div class="panel-head">
+        <span class="station-name">KGOB Radio</span>
+        <span class="led-row"><span class="led" id="led-moss"></span><span id="status-moss">connecting</span></span>
+      </div>
+      <div class="spool" id="spool-moss"><div class="empty-state">Tuning in…</div></div>
+    </div>
+  </div>
+
+  <p class="foot-note">Pulling directly from each station's broadcast log on GitHub. Checks for a new segment every 30 seconds.</p>
+
+<script>
+  // ---- Configure your stations here ----
+  const STATIONS = [
+    {
+      key: "amber",
+      owner: "unkypaps",
+      repo: "AI-Radio",
+      branch: "main",
+      file: "LOG.md"
+    },
+    {
+      key: "moss",
+      owner: "unkypaps",
+      repo: "WGFE_the_GOB",
+      branch: "main",
+      file: "LOG.md"
+    }
+  ];
+  const POLL_MS = 30000;
+  // ----------------------------------------
+
+  const lastSeen = {};
+
+  function parseLog(text) {
+    // Strip the leading "# Station Name" header block if present
+    const body = text.replace(/^#.*\n(.*\n)?/, "");
+    const chunks = body.split(/\n-{3,}\n/).map(c => c.trim()).filter(Boolean);
+    const entries = chunks.map(chunk => {
+      const match = chunk.match(/\*\*\[(.*?)\]\*\*\s*([\s\S]*)/);
+      if (match) {
+        return { time: match[1].trim(), body: match[2].trim() };
+      }
+      return { time: "", body: chunk };
+    });
+    return entries.reverse(); // newest first
+  }
+
+  function render(stationKey, entries) {
+    const spool = document.getElementById("spool-" + stationKey);
+    if (!entries.length) {
+      spool.innerHTML = '<div class="empty-state">No broadcasts yet. Station may not have run its first cycle.</div>';
+      return;
+    }
+    spool.innerHTML = entries.slice(0, 40).map(e => `
+      <div class="entry">
+        <div class="entry-time">${escapeHtml(e.time)}</div>
+        <div class="entry-body">${escapeHtml(e.body)}</div>
+      </div>
+    `).join("");
+  }
+
+  function escapeHtml(str) {
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function setStatus(key, text) {
+    document.getElementById("status-" + key).textContent = text;
+  }
+
+  function flashLed(key) {
+    const led = document.getElementById("led-" + key);
+    led.classList.add("live");
+    led.classList.remove("flash");
+    requestAnimationFrame(() => led.classList.add("flash"));
+  }
+
+  async function pollStation(station) {
+    const url = `https://raw.githubusercontent.com/${station.owner}/${station.repo}/${station.branch}/${station.file}?t=${Date.now()}`;
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) {
+        setStatus(station.key, res.status === 404 ? "not on air yet" : "error " + res.status);
+        return;
+      }
+      const text = await res.text();
+      const entries = parseLog(text);
+      render(station.key, entries);
+
+      const newest = entries[0] ? entries[0].time : null;
+      if (newest && newest !== lastSeen[station.key]) {
+        lastSeen[station.key] = newest;
+        flashLed(station.key);
+      }
+      const led = document.getElementById("led-" + station.key);
+      led.classList.add("live");
+      setStatus(station.key, "on air");
+    } catch (err) {
+      setStatus(station.key, "offline");
+    }
+  }
+
+  function pollAll() {
+    STATIONS.forEach(pollStation);
+  }
+
+  pollAll();
+  setInterval(pollAll, POLL_MS);
+</script>
+
+</body>
+</html>
