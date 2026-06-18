@@ -14,6 +14,7 @@ No installation needed -- this only uses Python's standard library.
 
 import json
 import os
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -75,9 +76,26 @@ def call_gemini(history):
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        result = json.loads(resp.read().decode("utf-8"))
-    return result["candidates"][0]["content"]["parts"][0]["text"]
+    last_error = None
+    for attempt in range(4):  # initial try + 3 retries
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+            return result["candidates"][0]["content"]["parts"][0]["text"]
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8")
+            last_error = (e, body)
+            # 503 (overloaded) and 429 (rate limited) are worth retrying;
+            # anything else (like a bad key) won't fix itself, so fail fast.
+            if e.code not in (503, 429):
+                break
+            wait = 5 * (2 ** attempt)  # 5s, 10s, 20s, 40s
+            print(f"Gemini returned {e.code}, retrying in {wait}s...")
+            time.sleep(wait)
+
+    e, body = last_error
+    print("Gemini API error:", body)
+    raise e
 
 
 def append_to_log(segment):
@@ -89,11 +107,7 @@ def append_to_log(segment):
 
 def main():
     history = load_history()
-    try:
-        segment = call_gemini(history)
-    except urllib.error.HTTPError as e:
-        print("Gemini API error:", e.read().decode("utf-8"))
-        raise
+    segment = call_gemini(history)
 
     if not os.path.exists(LOG_FILE):
         header = (
