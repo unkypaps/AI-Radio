@@ -2,7 +2,7 @@ name: AI Radio Broadcast
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # runs every 15 minutes
+    - cron: "7,22,37,52 * * * *"   # runs every 15 minutes, offset from peak load times
   workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
 
 permissions:
