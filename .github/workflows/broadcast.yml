@@ -1,0 +1,34 @@
+name: AI Radio Broadcast
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # runs every hour, on the hour (UTC)
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the station
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python radio_station.py
+
+      - name: Commit and push new broadcast
+        run: |
+          git config user.name "AI Radio Bot"
+          git config user.email "actions@github.com"
+          git add LOG.md
+          git diff --quiet --cached || git commit -m "New broadcast segment"
+          git push
