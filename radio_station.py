@@ -55,7 +55,10 @@ def load_history():
 
 
 def call_gemini(history):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{MODEL}:generateContent?key={API_KEY}"
+    )
     prompt_text = (
         "Here is the transcript of your show so far (most recent at the bottom). "
         "Write your NEXT segment now.\n\n---\n"
@@ -69,7 +72,7 @@ def call_gemini(history):
     req = urllib.request.Request(
         url,
         data=data,
-        headers={"Content-Type": "application/json", "x-goog-api-key": API_KEY},
+        headers={"Content-Type": "application/json"},
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
