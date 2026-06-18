@@ -107,8 +107,36 @@
     grid-template-columns:1fr 1fr;
     gap:22px;
   }
+  .station-toggle{
+    display:none;
+  }
   @media (max-width:760px){
     .grid{ grid-template-columns:1fr; }
+    .station-toggle{
+      display:flex;
+      max-width:980px;
+      margin:0 auto 18px;
+      border:1px solid var(--panel-edge);
+      border-radius:6px;
+      overflow:hidden;
+    }
+    .toggle-btn{
+      flex:1;
+      padding:11px 8px;
+      background:var(--panel);
+      border:none;
+      color:var(--dim);
+      font-family:'Oswald', sans-serif;
+      font-size:12.5px;
+      letter-spacing:0.05em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+    .toggle-btn + .toggle-btn{ border-left:1px solid var(--panel-edge); }
+    .toggle-btn[data-station="amber"].active{ background:var(--amber-dim); color:var(--amber); }
+    .toggle-btn[data-station="moss"].active{ background:var(--moss-dim); color:var(--moss); }
+    .panel{ display:none; }
+    .panel.active{ display:flex; }
   }
 
   .panel{
@@ -235,8 +263,13 @@
     <div class="tick moss">88.1 · KGOB</div>
   </div>
 
+  <div class="station-toggle">
+    <button class="toggle-btn active" data-station="amber" onclick="showStation('amber')">Static &amp; Sons</button>
+    <button class="toggle-btn" data-station="moss" onclick="showStation('moss')">KGOB</button>
+  </div>
+
   <div class="grid">
-    <div class="panel amber" id="panel-amber">
+    <div class="panel amber active" id="panel-amber">
       <div class="panel-head">
         <span class="station-name">Static &amp; Sons Radio</span>
         <span class="led-row"><span class="led" id="led-amber"></span><span id="status-amber">connecting</span></span>
@@ -311,6 +344,15 @@
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;");
+  }
+
+  function showStation(key) {
+    document.querySelectorAll(".panel").forEach(p => {
+      p.classList.toggle("active", p.id === "panel-" + key);
+    });
+    document.querySelectorAll(".toggle-btn").forEach(b => {
+      b.classList.toggle("active", b.dataset.station === key);
+    });
   }
 
   function setStatus(key, text) {
