@@ -242,6 +242,23 @@
     return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
+  function formatEastern(timeStr) {
+    // Expects "YYYY-MM-DD HH:MM UTC" as written by the station script
+    const match = timeStr.match(/(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC/);
+    if (!match) return timeStr; // fall back to raw text if format is unexpected
+    const d = new Date(`${match[1]}T${match[2]}:00Z`);
+    if (isNaN(d.getTime())) return timeStr;
+    return d.toLocaleString("en-US", {
+      timeZone: "America/New_York",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+      timeZoneName: "short",
+    });
+  }
+
   function render(entries) {
     const spool = document.getElementById("spool");
     if (!entries.length) {
@@ -251,7 +268,7 @@
     spool.innerHTML = entries.slice(0, 50).map(e => `
       <div class="entry">
         <div class="entry-meta">
-          <span class="entry-time">${escapeHtml(e.time)}</span>
+          <span class="entry-time">${escapeHtml(formatEastern(e.time))}</span>
           ${e.tag ? `<span class="tag tag-${escapeHtml(e.tag)}">${escapeHtml(e.tag)}</span>` : ""}
         </div>
         <div class="entry-body">${escapeHtml(e.body)}</div>
