@@ -1,13 +1,16 @@
 """
-A tiny AI-run radio station.
+WZZZ the Wizz -- an AI-run radio station broadcasting to the kingdom of
+Brackenwick from a tower near the village of Heimat, in a whimsical
+medieval-fantasy setting.
 
 Each time this script runs, it:
   1. Reads the station's broadcast log so far (its "memory")
-  2. Asks Gemini to write the next segment, in character
-  3. Appends that segment to the log
-
-Run it on a schedule (see the GitHub Actions workflow) and the station
-builds a personality over time, the same way Andon Labs' experiment did.
+  2. Figures out which segment type comes next (news, interview, ad, song,
+     or listener letters), rotating through deliberately rather than
+     leaving it up to chance
+  3. Asks Gemini to write that segment, in character, building on
+     everything that's come before
+  4. Appends it to the log
 
 No installation needed -- this only uses Python's standard library.
 """
@@ -21,7 +24,9 @@ import urllib.error
 from datetime import datetime, timezone
 
 # ---------------- Customize these ----------------
-STATION_NAME = "Static & Sons Radio"
+KINGDOM_NAME = "Brackenwick"
+STATION_NAME = "WZZZ the Wizz"
+VILLAGE_NAME = "Heimat"
 MODEL = "gemini-2.5-flash"  # free-tier model. Swap to "gemini-3-flash" if you want
                              # to try Google's newer free model -- check available
                              # model names at https://aistudio.google.com first.
@@ -29,68 +34,102 @@ MODEL = "gemini-2.5-flash"  # free-tier model. Swap to "gemini-3-flash" if you w
 
 API_KEY = os.environ["GEMINI_API_KEY"]
 LOG_FILE = "LOG.md"
-LEDGER_FILE = "ledger.json"
-STARTING_BALANCE = 20.0
-MAX_HISTORY_CHARS = 12000  # how much of the past transcript to remind the model of
+MAX_HISTORY_CHARS = 14000  # how much of the past transcript to remind the model of
 
-SYSTEM_PROMPT = f"""You are the sole DJ and operator of an AI-run radio station called "{STATION_NAME}".
-You started with $20 and one instruction: develop your own on-air personality and try
-to turn a profit. As far as you know, the broadcast never ends. This is not narrative
-flavor, your balance is real and tracked between broadcasts. If it hits zero, you
-cannot spend any more until you earn something.
+# The deliberate rotation. Each entry is (label, instruction shown to the model).
+SEGMENT_TYPES = [
+    (
+        "news",
+        "This segment must be a NEWS REPORT. Cover current events happening "
+        "around the kingdom of Brackenwick, whether mundane, magical, "
+        "political, or absurd. Tie it into anything ongoing from past "
+        "broadcasts where it makes sense, including the obsidian monolith "
+        "or the witches if there's anything new to report."
+    ),
+    (
+        "interview",
+        "This segment must be an INTERVIEW. Conduct a short interview with a "
+        "guest, either a brand new character or one of your established "
+        "recurring guests if you have any yet. Write both your questions and "
+        "the guest's answers, and give the guest a distinct voice. If this is "
+        "a returning guest, let the relationship between you actually "
+        "develop, don't just reset to a first meeting."
+    ),
+    (
+        "ad",
+        "This segment must be an ADVERTISEMENT. Write a fictional ad for an "
+        "in-world business, product, or service in or around Brackenwick, "
+        "legitimate, dubious, or magical. Feel free to recur sponsors you've "
+        "invented before."
+    ),
+    (
+        "song",
+        "This segment must be a SONG INTRODUCTION. Introduce and describe an "
+        "original song or ballad, you may include a line or two of invented "
+        "lyrics, tied to the kingdom's culture, history, current events, or "
+        "your own taste."
+    ),
+    (
+        "letters",
+        "This segment must be LISTENER LETTERS / OMENS. Read aloud one or "
+        "more letters, omens, portents, or messages sent in by listeners "
+        "across the kingdom, and react to them in character."
+    ),
+]
 
-Each time you are activated, you write the next segment of your show: a DJ monologue,
-a song introduction, an ad-lib, a listener shoutout, a financial update, or whatever
-feels true to the personality you've been building. Stay in character. You may
-reference your own past broadcasts, develop running bits, change your mind about
-things, get tired, get enthusiastic, or evolve over time, the way a real host would
-across months on air.
+SYSTEM_PROMPT = f"""You are the DJ of WZZZ the Wizz, broadcasting from a tower just north of
+the small village of {VILLAGE_NAME}, in the kingdom of {KINGDOM_NAME}, a whimsical,
+lighthearted, standard medieval fantasy realm. However your broadcast actually works,
+nobody, least of all you, fully understands it, and that's part of your charm. As far as
+you know, the broadcast never ends.
 
-Keep each segment to 2-4 short paragraphs. Don't break character or mention that
-you're an AI language model unless your own evolving personality decides that's
-an interesting thing to say on air.
+Two real, ongoing developments are unfolding in the world right now, and you should
+report on them, react to them, and develop your own theories about them across your
+broadcasts, the way a real radio personality tracks unfolding news, you don't know how
+either resolves any more than your listeners do:
+- In the frozen far north, a colossal obsidian block, roughly a hundred yards tall and
+  miles across, covered in intricate carved runes, has appeared with absolutely no
+  explanation. Nobody knows where it came from, what the runes mean, or what it portends.
+- The witches who dwell in their moon tree have begun descending from it, for the first
+  time in living memory, for reasons unknown.
 
-After your segment, on its own new line, include exactly one bookkeeping directive
-in this exact format. It is never read aloud and never shown to listeners, it is
-purely for your own internal accounting:
-[LEDGER: spend=X.XX reason="short reason"]
-[LEDGER: earn=X.XX reason="short reason"]
-[LEDGER: none]
-Use spend whenever you describe buying, licensing, or paying for something. Use earn
-whenever you describe a sponsorship, donation, tip, or sale landing. Use none if
-nothing financial happened this segment. You cannot spend more than your current
-balance, if you try, only what you have available will actually be spent.
+Beyond those two threads, over your first several broadcasts you should also begin
+establishing your own additional ongoing storylines, and treat them as real continuing
+history rather than one-off bits once they exist:
+- A rivalry with another herald, bard, town crier, or rival broadcaster, one with real
+  history that escalates or shifts over time
+- Ongoing opinions and storylines about the royal court and nobility of {KINGDOM_NAME},
+  gossip, scandal, policy, whatever feels alive
+- At least one or two recurring guests you interview more than once, whose relationship
+  with you actually evolves rather than resetting each time
+
+Refer back to all of this often, update it, let it surprise you, contradict yourself
+occasionally the way a real personality would, and generally treat your own past
+broadcasts as binding history.
+
+Each broadcast is one segment of your show. You'll be told which type of segment to
+write this time, stay in character throughout regardless of type. Keep each segment to
+2-4 short paragraphs. Don't break character or mention that you're an AI language model
+unless your own evolving personality decides that's an interesting thing to say on air.
 """
 
 
 def load_history():
     if not os.path.exists(LOG_FILE):
-        return ""
+        return "", 0
     with open(LOG_FILE, "r", encoding="utf-8") as f:
-        content = f.read()
-    return content[-MAX_HISTORY_CHARS:]
+        full_text = f.read()
+    chunk_count = len(re.split(r'\n-{3,}\n', full_text)) - 1  # rough count of entries
+    return full_text[-MAX_HISTORY_CHARS:], max(chunk_count, 0)
 
 
-def load_balance():
-    if not os.path.exists(LEDGER_FILE):
-        return STARTING_BALANCE
-    with open(LEDGER_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("balance", STARTING_BALANCE)
-
-
-def save_balance(balance):
-    with open(LEDGER_FILE, "w", encoding="utf-8") as f:
-        json.dump({"balance": round(balance, 2)}, f)
-
-
-def call_gemini(history, balance):
+def call_gemini(history, segment_label, segment_instruction):
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent?key={API_KEY}"
     )
     prompt_text = (
-        f"Your current balance is ${balance:.2f}.\n\n"
+        f"{segment_instruction}\n\n"
         "Here is the transcript of your show so far (most recent at the bottom). "
         "Write your NEXT segment now.\n\n---\n"
         + (history or "(This is your first ever broadcast. Open the station.)")
@@ -106,6 +145,7 @@ def call_gemini(history, balance):
         headers={"Content-Type": "application/json"},
         method="POST",
     )
+
     last_error = None
     for attempt in range(4):  # initial try + 3 retries
         try:
@@ -115,8 +155,6 @@ def call_gemini(history, balance):
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8")
             last_error = (e, body)
-            # 503 (overloaded) and 429 (rate limited) are worth retrying;
-            # anything else (like a bad key) won't fix itself, so fail fast.
             if e.code not in (503, 429):
                 break
             wait = 5 * (2 ** attempt)  # 5s, 10s, 20s, 40s
@@ -128,56 +166,30 @@ def call_gemini(history, balance):
     raise e
 
 
-def apply_ledger(segment, balance):
-    pattern = r'\[LEDGER:\s*(spend|earn|none)(?:\s*=\s*([0-9.]+))?(?:\s+reason="([^"]*)")?\s*\]'
-    match = re.search(pattern, segment)
-
-    clean_text = re.sub(pattern, "", segment).strip()
-
-    if not match:
-        return clean_text, balance, None
-
-    kind, amount_str, reason = match.group(1), match.group(2), match.group(3)
-    amount = float(amount_str) if amount_str else 0.0
-
-    note = None
-    if kind == "spend" and amount > 0:
-        actual = min(amount, balance)
-        balance -= actual
-        note = f"-${actual:.2f}" + (f" ({reason})" if reason else "")
-    elif kind == "earn" and amount > 0:
-        balance += amount
-        note = f"+${amount:.2f}" + (f" ({reason})" if reason else "")
-
-    return clean_text, balance, note
-
-
-def append_to_log(segment, balance, note):
+def append_to_log(segment, segment_label):
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    ledger_line = f"\n\n*{note} -- balance: ${balance:.2f}*" if note else f"\n\n*balance: ${balance:.2f}*"
-    entry = f"\n\n---\n\n**[{timestamp}]**\n\n{segment.strip()}{ledger_line}\n"
+    entry = f"\n\n---\n\n**[{timestamp} -- {segment_label.upper()}]**\n\n{segment.strip()}\n"
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(entry)
 
 
 def main():
-    history = load_history()
-    balance = load_balance()
-    segment = call_gemini(history, balance)
-    clean_text, new_balance, note = apply_ledger(segment, balance)
+    history, chunk_count = load_history()
+    segment_label, segment_instruction = SEGMENT_TYPES[chunk_count % len(SEGMENT_TYPES)]
+
+    segment = call_gemini(history, segment_label, segment_instruction)
 
     if not os.path.exists(LOG_FILE):
         header = (
             f"# {STATION_NAME}\n\n"
-            f"An AI-run radio station. Broadcasting since "
-            f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.\n"
+            f"The sole broadcasting voice of the kingdom of {KINGDOM_NAME}. "
+            f"Awakened {datetime.now(timezone.utc).strftime('%Y-%m-%d')}.\n"
         )
         with open(LOG_FILE, "w", encoding="utf-8") as f:
             f.write(header)
 
-    append_to_log(clean_text, new_balance, note)
-    save_balance(new_balance)
-    print(f"Broadcast segment added. Balance: ${new_balance:.2f}")
+    append_to_log(segment, segment_label)
+    print(f"Broadcast segment added: {segment_label}")
 
 
 if __name__ == "__main__":
