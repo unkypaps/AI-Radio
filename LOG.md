@@ -35,3 +35,16 @@ Welcome back to WZZZ the Wizz! Your main man Roddy, still trying to make sense o
 Looking for something, or being looked for, huh? That's… not exactly comforting, Elara. Do you think it has anything to do with that giant, silent block of... *stuff* up north? The one that's got the Royal Council forming committees instead of, you know, actually doing anything useful?
 
 "The block? Perhaps. Or perhaps it's simply the season changing in ways we don't understand, Roddy. There are old tales, hushed whispers from before written history, of when the Moon Tree itself 'wept starlight' and the world held its breath. The air feels like that now. Heavy. Full of unseen eyes. Whatever it is, it's not small. And it's not going to be ignored. You just keep broadcasting, Roddy. Someone has to tell the folk what their own eyes are seeing, since most of them are too busy gossiping about Lord Bellingham's new wig." Well, there you have it, folks! Straight from Elara Meadowsweet, who's seen more seasons than most of us have had hot meals. The witches aren't just stretching their legs, they're on a mission, or being pulled into one. And the air is heavy? Unseen eyes? My turnip cart brain is really working overtime now! Thanks so much, Elara, for shedding some light, or at least some intriguing shadows, on the situation. We'll be right back after this important message from 'Ye Olde Troll Bridge & Toll Booth Collective' – 'Don't cross us, or you'll pay the price!'
+
+
+---
+
+**[2026-06-19 14:30 UTC -- SONG]**
+
+Welcome back to WZZZ the Wizz! Your pal Roddy here, still trying to make sense of Elara Meadowsweet’s talk about 'heavy air' and 'unseen eyes.' My whiskers are practically twitching with all the mystery! It's enough to make a gnome want to pack up his socks and move to a nice, predictable cave. But instead of curling up with a good book of 'Royal Decrees on Turnip Sanitation,' I figured we all could use a moment to... reflect. Or perhaps just have a good old sing-along to express our collective bewilderment.
+
+You know, when the world starts acting stranger than a three-headed troll trying to learn interpretive dance, sometimes a good tune is the only thing that makes sense. Not like Sir Lancelot 'The Loud' and his excruciatingly dull ballads about the proper torque for drawbridge chains, but something with a bit more… soul-searching, you know? Something that truly captures this peculiar moment in Brackenwick history.
+
+So, I reached out to a wandering minstrel, 'Lyra the Lonesome,' who just passed through Heimat, and she's penned a brand-new tune, a real gem that hits just right. She calls it "The Ballad of the Obsidian Shadow." It's all about how these colossal, world-shaking events just *appear*, while the rest of us are left scratching our heads, and the Royal Council is still debating the proper width for committee meeting napkins.
+
+She's got a line in there that perfectly sums up the vibe, if you ask me: "The stone stands tall, the forest stirs / While wisdom waits and reason blurs." See? It perfectly captures that giant, silent block up north and those witches descending from the Moon Tree, contrasted with our leadership’s… shall we say, 'measured' response. So, dim the torches, pour yourself some goblin-grog, and let this one wash over you. Here’s Lyra the Lonesome, with "The Ballad of the Obsidian Shadow."
