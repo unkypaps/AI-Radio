@@ -34,7 +34,9 @@ MODEL = "gemini-2.5-flash"  # free-tier model. Swap to "gemini-3-flash" if you w
 
 API_KEY = os.environ["GEMINI_API_KEY"]
 LOG_FILE = "LOG.md"
-MAX_HISTORY_CHARS = 14000  # how much of the past transcript to remind the model of
+LORE_FILE = "LORE.md"
+MAX_HISTORY_CHARS = 40000  # how much of the past transcript to remind the model of
+LORE_DELIMITER = "===LORE_UPDATE==="
 
 # The deliberate rotation. Each entry is (label, instruction shown to the model).
 SEGMENT_TYPES = [
@@ -111,6 +113,20 @@ Each broadcast is one segment of your show. You'll be told which type of segment
 write this time, stay in character throughout regardless of type. Keep each segment to
 2-4 short paragraphs. Don't break character or mention that you're an AI language model
 unless your own evolving personality decides that's an interesting thing to say on air.
+
+After you finish writing your segment, on its own new line, write exactly:
+{LORE_DELIMITER}
+This marks the start of your own private continuity reference, it is never broadcast,
+heard, or shown to listeners, it exists purely so you remember things correctly in
+future episodes even after the raw transcript scrolls out of view. In it, concisely
+record the current state of everything that matters: names and personalities of
+recurring characters and guests and your relationship with each, the current state of
+your rivalry, the current state of court intrigue and your opinions on the nobility, the
+current status of your own theories about the obsidian monolith and the witches, and any
+other running bits or facts worth remembering. Rewrite this fresh each time to reflect
+the current state of all of it, replacing outdated information rather than just
+appending to it. Keep it efficient, more a reference sheet than prose, well under 500
+words.
 """
 
 
@@ -123,15 +139,41 @@ def load_history():
     return full_text[-MAX_HISTORY_CHARS:], max(chunk_count, 0)
 
 
-def call_gemini(history, segment_label, segment_instruction):
+def load_lore():
+    if not os.path.exists(LORE_FILE):
+        return ""
+    with open(LORE_FILE, "r", encoding="utf-8") as f:
+        return f.read().strip()
+
+
+def save_lore(text):
+    with open(LORE_FILE, "w", encoding="utf-8") as f:
+        f.write(text.strip() + "\n")
+
+
+def split_response(raw):
+    parts = raw.split(LORE_DELIMITER, 1)
+    segment = parts[0].strip()
+    lore_update = parts[1].strip() if len(parts) > 1 else None
+    return segment, lore_update
+
+
+def call_gemini(history, lore, segment_label, segment_instruction):
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent?key={API_KEY}"
     )
+    lore_block = (
+        f"Your continuity reference from last time (treat this as established fact):\n"
+        f"{lore}\n\n"
+        if lore else ""
+    )
     prompt_text = (
         f"{segment_instruction}\n\n"
+        f"{lore_block}"
         "Here is the transcript of your show so far (most recent at the bottom). "
-        "Write your NEXT segment now.\n\n---\n"
+        "Write your NEXT segment now, followed by your continuity reference update as "
+        "instructed.\n\n---\n"
         + (history or "(This is your first ever broadcast. Open the station.)")
     )
     payload = {
@@ -175,9 +217,11 @@ def append_to_log(segment, segment_label):
 
 def main():
     history, chunk_count = load_history()
+    lore = load_lore()
     segment_label, segment_instruction = SEGMENT_TYPES[chunk_count % len(SEGMENT_TYPES)]
 
-    segment = call_gemini(history, segment_label, segment_instruction)
+    raw_response = call_gemini(history, lore, segment_label, segment_instruction)
+    segment, lore_update = split_response(raw_response)
 
     if not os.path.exists(LOG_FILE):
         header = (
@@ -189,7 +233,9 @@ def main():
             f.write(header)
 
     append_to_log(segment, segment_label)
-    print(f"Broadcast segment added: {segment_label}")
+    if lore_update:
+        save_lore(lore_update)
+    print(f"Broadcast segment added: {segment_label}" + (" (lore updated)" if lore_update else " (no lore update parsed)"))
 
 
 if __name__ == "__main__":
