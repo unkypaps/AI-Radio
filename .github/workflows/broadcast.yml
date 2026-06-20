@@ -29,7 +29,8 @@ jobs:
         run: |
           git config user.name "AI Radio Bot"
           git config user.email "actions@github.com"
-          git add LOG.md ledger.json
+          git add LOG.md
+          [ -f LORE.md ] && git add LORE.md
           git diff --quiet --cached || git commit -m "New broadcast segment"
           git pull --rebase origin main
           git push
