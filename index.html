@@ -179,6 +179,46 @@
   .entry:first-child .entry-body{ color:#fff; }
 
   .empty-state{ color:var(--dim); font-size:13px; text-align:center; padding:30px 10px; }
+
+  .lore-panel{
+    max-width:720px;
+    margin:18px auto 0;
+    background:var(--panel);
+    border:1px solid var(--panel-edge);
+    border-left:4px solid var(--dim);
+    border-radius:4px;
+    overflow:hidden;
+  }
+  .lore-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 16px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .lore-head .station-name{ color:var(--dim); font-size:13px; }
+  .lore-chevron{
+    font-size:11px;
+    color:var(--dim);
+    transition:transform .2s ease;
+  }
+  .lore-panel.open .lore-chevron{ transform:rotate(180deg); }
+  .lore-body{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .25s ease;
+    border-top:1px solid var(--panel-edge);
+  }
+  .lore-panel.open .lore-body{ max-height:50vh; overflow-y:auto; }
+  .lore-content{
+    padding:14px 16px 18px;
+    font-size:13px;
+    line-height:1.55;
+    white-space:pre-wrap;
+    color:var(--cream);
+  }
+
   .foot-note{
     max-width:720px;
     margin:26px auto 0;
@@ -209,6 +249,16 @@
     <div class="spool" id="spool"><div class="empty-state">Tuning in…</div></div>
   </div>
 
+  <div class="lore-panel" id="lore-panel">
+    <div class="lore-head" onclick="toggleLore()">
+      <span class="station-name">Continuity Reference (the DJ's own notes)</span>
+      <span class="lore-chevron">▾</span>
+    </div>
+    <div class="lore-body">
+      <div class="lore-content" id="lore-content">Loading…</div>
+    </div>
+  </div>
+
   <p class="foot-note">Pulling directly from the station's broadcast log on GitHub. Checks for a new segment every 30 seconds.</p>
 
 <script>
@@ -217,6 +267,7 @@
   const REPO = "AI-Radio";
   const BRANCH = "main";
   const FILE = "LOG.md";
+  const LORE_FILE = "LORE.md";
   const POLL_MS = 30000;
   // ----------------------------------------
 
@@ -311,8 +362,30 @@
     }
   }
 
+  async function pollLore() {
+    const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${LORE_FILE}?t=${Date.now()}`;
+    const contentEl = document.getElementById("lore-content");
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) {
+        contentEl.textContent = "No continuity reference recorded yet.";
+        return;
+      }
+      const text = await res.text();
+      contentEl.textContent = text.trim() || "No continuity reference recorded yet.";
+    } catch (err) {
+      contentEl.textContent = "Couldn't load continuity reference right now.";
+    }
+  }
+
+  function toggleLore() {
+    document.getElementById("lore-panel").classList.toggle("open");
+  }
+
   poll();
+  pollLore();
   setInterval(poll, POLL_MS);
+  setInterval(pollLore, POLL_MS);
 </script>
 
 </body>
