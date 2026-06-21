@@ -233,3 +233,14 @@ Old Man Hemlock: (A longer, exasperated sigh) "Laundry list or not, they're cert
 Old Man Hemlock: (A distinct grunt, then a pause) "My world's got chores, Wizz. Ain't no time for hummin' pickaxes. But... I'll admit, the cat's been actin' peculiar. Stares at the ceiling for hours, tail twitchin'. And the ale in the cellar... tastes a bit... *sharper*. More fizz. Could be the hum. Or could be I brewed it too strong. Probably the latter. Never trust a cosmic hum when a good ale brew could be the culprit."
 
 "The ale's got more fizz, the cat's become a celestial observer... sounds like even the most grounded among us are feeling the ripple effects, Hemlock. While Lord Cedric is no doubt deliberating the *ideal wobble-to-solidity ratio* of dairy desserts, the rest of us are trying to figure out if our pickaxes are going to start singing ballads. Thank you, Old Man Hemlock, for your... *steadfast* perspective. You heard it here, folks, even when he grumbles, the truth tends to find its way to WZZZ the Wizz!"
+
+
+---
+
+**[2026-06-21 14:00 UTC -- AD]**
+
+Alright, Brackenwick, another cycle of the sun, another wave of cosmic weirdness washing over our kingdom! Your ear is tuned to WZZZ the Wizz, the only station bringing you the real reports from a world where pickaxes hum with alien energies and cats are suddenly deep thinkers. With the northern monolith now *imprinting* its geometric secrets onto Borin Stonehand's very dreams, and the Moon Tree Witches *activating* ley lines with shimmering stones and synchronized hums, who among us doesn’t feel an urgent need to peer beyond the veil? Even Old Man Hemlock's ale is fizzier!
+
+Well, if you're tired of just *hearing* about the unfolding mysteries, if you yearn to *glimpse* the cosmic conversation or witness the witches' living blueprint for yourself, then it's time to visit *The Seer's Eye Scrying Pool Rentals*! Madam Elara, our most delightfully dramatic interviewee, swears her Deluxe Oracle Basins are positively *ablaze* with visions! She’s seeing the same shifting glyphs Borin described in his dreams, the same luminous trails that Lyra the herbalist saw the witches tracing in the air. These aren't just puddles, folks; they're windows into the heart of Brackenwick’s greatest puzzles!
+
+So, stop wondering if Lord Cedric's next decree will be about the ideal temperature for royal bathwater, and start exploring the true pulse of the kingdom! The Seer's Eye, located just past the Whispering Woods, right next to the 'Almost-New' Broomstick Emporium, offers you a chance to engage directly with the inexplicable. Remember, visions of cosmic truth may lead to profound philosophical insights, an uncontrollable urge to hum in public, or even slightly fizzier ale. WZZZ the Wizz and The Seer's Eye – connecting you to the weird, one ripple at a time!
