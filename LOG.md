@@ -112,3 +112,19 @@ Alright, Brackenwick, you’re tuned into WZZZ the Wizz, where we deal in the *r
 That's why we're once again bringing you an important message from our friends at *The Seer's Eye Scrying Pool Rentals*! You might remember them from before, offering a peek into the unknown. Well, they’ve been busier than a royal barber during Lord Cedric's moustache week! With all this cosmic activity, the demand for a personal window into the mysteries has, shall we say, *expanded*. They've even introduced their new "Deluxe Oracle Basins," specifically tuned, they claim, to pick up on those subtle energy pulses from the obsidian monolith, or perhaps even a magnified glimpse of those witches' ancient, crinkled map!
 
 Forget the vague rumors Sir Reginald Bellows is spinning about whether the Arch-Mages will finally agree on an 'emergency scroll tax.' With a rental from The Seer's Eye, you can see if that monolith is truly growing, if those runes are *really* breathing light, or if the witches' 'laundry list' is actually a blueprint for a world-changing event! Located just a short journey past the Whispering Woods, next to the very conveniently placed 'Almost-New' Broomstick Emporium, The Seer's Eye Scrying Pool Rentals are your best bet for seeing *something*. WZZZ the Wizz reminds you that results may vary, visions are not guaranteed to be coherent, and we are absolutely not responsible for any existential dread caused by unasked-for glimpses of the cosmos.
+
+
+---
+
+**[2026-06-21 04:00 UTC -- SONG]**
+
+Well, greetings, denizens of Brackenwick! The sun's up, the air's crisp, and yet there's still that... *thrum* in the back of your mind, isn't there? That whisper of the impossible. I'm not talking about whether Lord Cedric's artisanal moss garden is perfectly symmetrical this week, or if Sir Reginald Bellows has finally perfected his pinky-finger-extension technique. I'm talking about the *real* disquiet, the kind that makes your fur stand on end when you look North.
+
+We've all heard "The Stone and the Stroll" – a fine tune, captures the absurdity perfectly. But lately, with reports of that colossal black slab not just sitting there, but *breathing* light, expanding, pulsing with some unseen power... well, the mood's shifted. The shrug is turning into a shiver. And when the common folk gather by the hearth, they're not just laughing at the nobles anymore; they're wondering if that dark stone is laughing back. This next song, it's a newer one, echoing through the northern villages, a bit more chilling than the last. They call it "The Obsidian's Hum."
+
+This isn't a ballad of bemusement, folks. This is a tune born of cold nights and colder fears. It speaks of something ancient waking up, of a power beyond our understanding, humming just beneath the surface of the world. It’s got a haunting, low drone, they say, like the very block itself. There's a verse that sticks with you:
+*‘It drank the stars, it swallowed light,*
+*Now in the North, it dreams through night.*
+*A silent hum, a growing dread,*
+*From frozen earth, the stone is fed.’*
+A bit darker, yes, but isn't that how things feel these days? So, let's hear it, and feel the chill of the North right here in your warm homes. "The Obsidian's Hum."
