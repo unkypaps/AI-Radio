@@ -60,3 +60,16 @@ It's a simple little ballad, but it cuts right to the bone, if you ask me. Folks
 *“The black stone sleeps, the witches stride,*
 *While lords debate where mushrooms hide.”*
 Tell me that doesn't hit home. So, clear your mind of pompous criers and dubious scrying pool ads for a moment, and let's listen to something real, something that truly reflects the weirdness we're all living through. Here's "The Stone and the Stroll."
+
+
+---
+
+**[2026-06-21 01:00 UTC -- LETTERS]**
+
+Gather 'round the magical airwaves, friends, because it's time to sift through the parchment and the whispers that find their way to WZZZ the Wizz. This is your host, and today we're delving into your letters, omens, and the unsettling tidbits that keep me, and I'm sure you, awake at night. And believe me, what's arriving in our enchanted mailbox is far more substantial than Lord Cedric's latest decree on the proper curvature of noble's eyebrows.
+
+First up, a rather frantic message from Elara from the Northern Marches, near the edge of the Frostfang Peaks: "Dear Wizz," she writes, "that black rock in the north... it's changing! I swear on my grandmother's prize-winning yak, it looks a little taller each morning. And sometimes, when the aurora dances, the carvings on its surface... they *shimmer*! Like something underneath is breathing light. Is it alive, Wizz? Is it growing? Or is it just the cold playing tricks on my eyes?" Well, Elara, that's a chilling thought! "Playing tricks" isn't usually how cosmic-scale obsidian monuments operate. A shimmering, growing block? It makes my "silent protest" theory seem a bit tame. Perhaps it's not just a cosmic dice, but a cosmic *story* being written, chapter by silent, shimmering chapter, right before our very eyes!
+
+And speaking of things on the move, we have this from a listener named Thistlewick, who lives just a few miles south of the Whispering Woods: "Wizz," he scribbles, "Old Man Hemlock might say the Moon Tree Witches are just strolling, quiet as you please. But I saw one, near the Old Willow, and she wasn't just walking. She paused, and I could have sworn she unfurled a map! A really old, rolled-up one, all crinkled and faded. She peered at it, then tucked it away and kept heading south. They're not just taking a walk, Wizz! They're on a mission!" A map, you say, Thistlewick? Now that changes things! Hemlock's "tree-bark tea" theory suddenly feels less likely. Are they looking for something? Or perhaps... are they following a path laid out by something *else*?
+
+A growing, shimmering block in the north, and witches consulting ancient maps, heading south. Coincidence? I think not. Could this map, whatever it depicts, be leading them towards that colossal monolith? Are they the guardians of some ancient secret related to it, or perhaps its unwitting heralds? While Sir Reginald Bellows is no doubt busy confirming whether the noble court's artisanal moss gardens are uniformly green this season, we here at WZZZ the Wizz are looking at a bigger picture. The Stone is growing, and the Stroll now has a direction. Makes you wonder what's on that map, doesn't it?
