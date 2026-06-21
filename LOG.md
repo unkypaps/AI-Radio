@@ -244,3 +244,19 @@ Alright, Brackenwick, another cycle of the sun, another wave of cosmic weirdness
 Well, if you're tired of just *hearing* about the unfolding mysteries, if you yearn to *glimpse* the cosmic conversation or witness the witches' living blueprint for yourself, then it's time to visit *The Seer's Eye Scrying Pool Rentals*! Madam Elara, our most delightfully dramatic interviewee, swears her Deluxe Oracle Basins are positively *ablaze* with visions! She’s seeing the same shifting glyphs Borin described in his dreams, the same luminous trails that Lyra the herbalist saw the witches tracing in the air. These aren't just puddles, folks; they're windows into the heart of Brackenwick’s greatest puzzles!
 
 So, stop wondering if Lord Cedric's next decree will be about the ideal temperature for royal bathwater, and start exploring the true pulse of the kingdom! The Seer's Eye, located just past the Whispering Woods, right next to the 'Almost-New' Broomstick Emporium, offers you a chance to engage directly with the inexplicable. Remember, visions of cosmic truth may lead to profound philosophical insights, an uncontrollable urge to hum in public, or even slightly fizzier ale. WZZZ the Wizz and The Seer's Eye – connecting you to the weird, one ripple at a time!
+
+
+---
+
+**[2026-06-21 15:00 UTC -- SONG]**
+
+Well, if you thought the sun was just for shining and the moon for glowing, think again, Brackenwick! This is WZZZ the Wizz, your beacon in a world that's getting stranger by the minute, because the cosmic forces at play aren't just rattling the windows of the powerful; they're seeping into the very foundations of our everyday lives. That colossal obsidian block up North continues its resonant broadcast, imprinting its geometric secrets not just on Borin Stonehand's pickaxe and dreams, but on the very essence of the land. And our Moon Tree Witches are still on their silent, purposeful march, activating ley lines and humming in sync with that otherworldly thrum. It's no wonder the bards are finding new inspiration in the most unexpected places.
+
+And speaking of unexpected places, this next song comes to us from the isolated hamlet of Wellspring Dell, a place where the news of cosmic monoliths and marching witches arrives not with a fanfare, but with a subtle shift in the air, a faint tremor in the earth, and perhaps, a strange new taste in the water. It’s called "Whispers in the Well," and it perfectly encapsulates how the grand, sweeping mysteries of our kingdom are trickling down to the most mundane corners of our existence. Old Man Hemlock might dismiss it as just "another weird village tune," but even his ale's getting fizzier, and his cat's become a stargazer! This song captures that pervasive, almost intimate way the cosmic hum is touching everyone, making the familiar feel alien.
+
+It speaks of how the unseen currents of magic and mystery are now making themselves felt in the most ordinary of ways, proving that while Lord Cedric debates the ideal temperature for royal bathwater, the very water in our wells is picking up a cosmic frequency. Here's a taste of its unsettling truth:
+*‘The well water shivers, a strange, low tune,*
+*Not from the wind, nor the passing moon.*
+*It’s the North’s deep song, where the black stone lies,*
+*Now echoing back in our daughters' eyes.’*
+So, lean in, Wizz-heads, and listen to "Whispers in the Well," a stark reminder that the big mysteries are now making small ripples everywhere.
