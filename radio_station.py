@@ -1,7 +1,7 @@
 """
 WZZZ the Wizz -- an AI-run radio station broadcasting to the kingdom of
-Brackenwick from a tower near the village of Heimat, in a whimsical
-medieval-fantasy setting.
+Brackenwick from a tower near the village of Heimat, in a medieval-fantasy
+setting.
 
 Each time this script runs, it:
   1. Reads the station's broadcast log so far (its "memory")
