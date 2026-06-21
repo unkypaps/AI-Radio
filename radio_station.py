@@ -17,6 +17,7 @@ No installation needed -- this only uses Python's standard library.
 
 import json
 import os
+import random
 import re
 import time
 import urllib.request
@@ -35,6 +36,7 @@ MODEL = "gemini-2.5-flash"  # free-tier model. Swap to "gemini-3-flash" if you w
 API_KEY = os.environ["GEMINI_API_KEY"]
 LOG_FILE = "LOG.md"
 LORE_FILE = "LORE.md"
+BUZZ_FILE = "buzz.json"
 MAX_HISTORY_CHARS = 16000  # how much of the past transcript to remind the model of
 LORE_DELIMITER = "===LORE_UPDATE==="
 
@@ -118,6 +120,16 @@ shown as material to build forward from, not a template to echo. In particular, 
 your opening line every time, don't fall back on the same catchphrase or rhythm to start
 each segment.
 
+You also have a real, fluctuating sense of how engaged your listeners are right now,
+rising and falling for reasons even you don't fully control. Each time you're activated
+you'll be told the current state of that engagement. Let it actually matter rather than
+just commenting on it: sustained low engagement should eventually produce a real
+consequence, a sponsor pulling out, your rival gaining ground, a recurring guest going
+quiet, the court losing interest in you. Sustained high engagement should matter too,
+more scrutiny, bigger guests, attention you didn't necessarily ask for. Weave this in
+naturally as texture and stakes, don't state the engagement level as a literal number on
+air.
+
 After you finish writing your segment, on its own new line, write exactly:
 {LORE_DELIMITER}
 This marks the start of your own private continuity reference, it is never broadcast,
@@ -132,6 +144,53 @@ the current state of all of it, replacing outdated information rather than just
 appending to it. Keep it efficient, more a reference sheet than prose, well under 500
 words.
 """
+
+
+def load_buzz():
+    if not os.path.exists(BUZZ_FILE):
+        return {"current": 50, "history": []}
+    with open(BUZZ_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_buzz(state):
+    with open(BUZZ_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f)
+
+
+def update_buzz(state):
+    delta = random.randint(-8, 8)
+    if random.random() < 0.1:  # occasional bigger swing, a viral moment or a bad night
+        delta += random.choice([-1, 1]) * random.randint(10, 20)
+    new_value = max(0, min(100, state["current"] + delta))
+    history = (state.get("history", []) + [new_value])[-8:]
+    return {"current": new_value, "history": history}
+
+
+def describe_buzz(state):
+    current = state["current"]
+    history = state.get("history", [])
+
+    if current <= 20:
+        level = "very low"
+    elif current <= 40:
+        level = "low"
+    elif current <= 60:
+        level = "steady, middling"
+    elif current <= 80:
+        level = "good, trending up"
+    else:
+        level = "unusually high, surging"
+
+    trend = ""
+    if len(history) >= 3:
+        recent = history[-3:]
+        if all(recent[i] <= recent[i + 1] for i in range(len(recent) - 1)):
+            trend = " It's been climbing for a few broadcasts in a row."
+        elif all(recent[i] >= recent[i + 1] for i in range(len(recent) - 1)):
+            trend = " It's been sliding for a few broadcasts in a row."
+
+    return f"Listener engagement right now is {level} ({current}/100).{trend}"
 
 
 def load_history():
@@ -162,7 +221,7 @@ def split_response(raw):
     return segment, lore_update
 
 
-def call_gemini(history, lore, segment_label, segment_instruction):
+def call_gemini(history, lore, buzz_description, segment_label, segment_instruction):
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent?key={API_KEY}"
@@ -175,6 +234,7 @@ def call_gemini(history, lore, segment_label, segment_instruction):
     prompt_text = (
         f"{segment_instruction}\n\n"
         f"{lore_block}"
+        f"{buzz_description}\n\n"
         "Here is the transcript of your show so far (most recent at the bottom). "
         "Write your NEXT segment now, followed by your continuity reference update as "
         "instructed.\n\n---\n"
@@ -222,9 +282,11 @@ def append_to_log(segment, segment_label):
 def main():
     history, chunk_count = load_history()
     lore = load_lore()
+    buzz_state = update_buzz(load_buzz())
+    buzz_description = describe_buzz(buzz_state)
     segment_label, segment_instruction = SEGMENT_TYPES[chunk_count % len(SEGMENT_TYPES)]
 
-    raw_response = call_gemini(history, lore, segment_label, segment_instruction)
+    raw_response = call_gemini(history, lore, buzz_description, segment_label, segment_instruction)
     segment, lore_update = split_response(raw_response)
 
     if not os.path.exists(LOG_FILE):
@@ -239,7 +301,11 @@ def main():
     append_to_log(segment, segment_label)
     if lore_update:
         save_lore(lore_update)
-    print(f"Broadcast segment added: {segment_label}" + (" (lore updated)" if lore_update else " (no lore update parsed)"))
+    save_buzz(buzz_state)
+    print(
+        f"Broadcast segment added: {segment_label} | buzz: {buzz_state['current']}/100"
+        + (" (lore updated)" if lore_update else " (no lore update parsed)")
+    )
 
 
 if __name__ == "__main__":
