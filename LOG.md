@@ -46,3 +46,17 @@ But let's be honest, most of us can't just pack up our turnips and trudge off to
 That's right! For a modest fee – and don't worry, Lord Cedric hasn't yet found a way to tax *this* particular venture – you can rent your very own genuine, artisanal, and surprisingly semi-portable scrying pool! Gaze upon the enigmatic obsidian monolith from the warmth of your hearth! Catch a fleeting glimpse of the Moon Tree Witches' southward procession (or perhaps just their cloaks, Hemlock says they're quite good at staying cloaked). It's perfect for the busy farmer, the nervous merchant, or even the Arch-Mage who's too busy pondering uniform mushroom sizes to actually *travel* to the North!
 
 So, if you're tired of vague rumors and Reggie's bluster, and you want to see... *something*... head on down to The Seer's Eye Scrying Pool Rentals, located conveniently (or inconveniently, depending on how you view ancient cartography) just off the Old King's Road, past the abandoned gnome-hat forge. Tell 'em WZZZ sent you, and they might even throw in a free polishing cloth for your scrying pool... or a slightly used divining rod. *The Seer's Eye Scrying Pool Rentals*, for when your curiosity is bigger than your travel budget. The Wizz is not responsible for what the scrying pool decides to show you, or doesn't show you. Magical interference not covered.
+
+
+---
+
+**[2026-06-21 00:57 UTC -- SONG]**
+
+Alright, Brackenwick! Hope you've all managed to shake off that lingering sense of... well, *strangeness* that's been hanging in the air like a poorly cast fog spell. With giant rocks just appearing out of thin air and our usually aloof witches taking a leisurely stroll south, it's enough to make even Old Man Hemlock admit there's more to worry about than wilting turnips. And speaking of which, I've got a little something that just might speak to that feeling.
+
+This next piece isn't some ancient bardic epic, nor is it a proclamation about uniform mushroom sizes from Lord Cedric that Sir Reginald Bellows would be frothing at the mouth to recite. No, this is a tune that's been making the rounds, hummed in taverns and sung by hearthsides across the kingdom, capturing the very spirit of what we're all seeing... and not seeing. It’s called "The Stone and the Stroll," and it perfectly sums up the kingdom's collective shrug.
+
+It's a simple little ballad, but it cuts right to the bone, if you ask me. Folks are grappling with the inexplicable, while the gentry are still counting their artisanal moss gardens. There's a line in it that always gets me, sums up the whole absurd situation:
+*“The black stone sleeps, the witches stride,*
+*While lords debate where mushrooms hide.”*
+Tell me that doesn't hit home. So, clear your mind of pompous criers and dubious scrying pool ads for a moment, and let's listen to something real, something that truly reflects the weirdness we're all living through. Here's "The Stone and the Stroll."
