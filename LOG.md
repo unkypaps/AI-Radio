@@ -33,3 +33,16 @@ Hemlock: "Hen coops? Nah. They just... walk. Quiet as shadows, they are. Seen a 
 Hemlock: "Couldn't say where they're headed, Wizz. All I know is my prize-winning leeks are safe, and that's what matters. But there's a chill in the air, a different kind. Not just winter coming. Feels like the world's holding its breath. And speaking of breath, this crystal thingamajig you got here smells like... well, like my donkey after a long market day. You sure this thing works?"
 
 "It works, Hemlock, it works. And thank you for that... vivid description. Much appreciated. There you have it, folks, straight from the source! The witches aren't casting spells, they're just... walking. Perhaps a reminder that the biggest mysteries often present themselves in the quietest ways. We'll be right back after this important message about... well, we don't have sponsors, so just stay tuned."
+
+
+---
+
+**[2026-06-21 00:52 UTC -- AD]**
+
+Well, good morrow, Brackenwick! Got that lingering chill in the air, don't we? And I'm not just talking about the rapidly approaching winter or Old Man Hemlock's perpetually frosty disposition. With colossal black rocks popping up in the north like particularly stubborn mushrooms and our usually tree-bound witches taking a constitutional stroll south, it's only natural to feel a bit... out of the loop. You want to know what's *really* going on, not just what Sir Reginald Bellows has decided to declare about the latest fashion in noble footwear.
+
+But let's be honest, most of us can't just pack up our turnips and trudge off to the frozen wastes to ogle an obsidian slab, nor do we fancy lurking in the Whispering Woods hoping for a peek at a moon-tree mystic. That's why WZZZ the Wizz is proud to present this message from our... well, let's call them "enterprising" friends at *The Seer's Eye Scrying Pool Rentals*!
+
+That's right! For a modest fee – and don't worry, Lord Cedric hasn't yet found a way to tax *this* particular venture – you can rent your very own genuine, artisanal, and surprisingly semi-portable scrying pool! Gaze upon the enigmatic obsidian monolith from the warmth of your hearth! Catch a fleeting glimpse of the Moon Tree Witches' southward procession (or perhaps just their cloaks, Hemlock says they're quite good at staying cloaked). It's perfect for the busy farmer, the nervous merchant, or even the Arch-Mage who's too busy pondering uniform mushroom sizes to actually *travel* to the North!
+
+So, if you're tired of vague rumors and Reggie's bluster, and you want to see... *something*... head on down to The Seer's Eye Scrying Pool Rentals, located conveniently (or inconveniently, depending on how you view ancient cartography) just off the Old King's Road, past the abandoned gnome-hat forge. Tell 'em WZZZ sent you, and they might even throw in a free polishing cloth for your scrying pool... or a slightly used divining rod. *The Seer's Eye Scrying Pool Rentals*, for when your curiosity is bigger than your travel budget. The Wizz is not responsible for what the scrying pool decides to show you, or doesn't show you. Magical interference not covered.
