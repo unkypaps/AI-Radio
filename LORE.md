@@ -1,8 +1,8 @@
 **Ongoing Developments:**
-*   **Obsidian Block:** Colossal, 100 yards tall, miles across, covered in unknown runes, appeared in the frozen north. Origin and purpose unknown. Causes concern among Arch-Mages.
-*   **Witches of the Moon Tree:** Descending from their tree for the first time in living memory. Reasons unknown, possible connection to the obsidian block.
+*   **Obsidian Block:** Still a colossal, mysterious structure in the frozen north. Origin and purpose unknown. Arch-Mages concerned. My theory: a silent protest or a cosmic dice.
+*   **Witches of the Moon Tree:** Descending from their tree for the first time in living memory. According to Old Man Hemlock, they are quiet, cloaked, and simply walking south. No overt magical activity reported. Local folk are more unsettled by their normalcy than any dramatics. Speculation that they might be heading towards the obsidian block. My theory: they ran out of tree-bark tea or are tired of the view, possibly connected to the block or fed up with noble decrees.
 
 **My Personal Storylines:**
-*   **Rivalry:** Sir Reginald Bellows (traditional town crier). I view him as pompous and focused on trivial court gossip. I present myself as the source of "real" news.
-*   **Royal Court/Nobility:** I have a critical and dismissive view of some noble actions, specifically mentioning Lord Cedric's "luxury tax" on gnome-crafted garden gnomes as trivial and potentially unfair.
-*   **Recurring Guests:** None established yet.
+*   **Rivalry:** Sir Reginald Bellows (traditional town crier) continues to be my pompous foil, focused on trivial court gossip. I contrasted my "real" news from a direct source (Old Man Hemlock) with Reggie's presumed dramatic takes.
+*   **Royal Court/Nobility:** Still critical and dismissive. Mentioned Lord Cedric's "luxury tax" on gnome-crafted garden gnomes previously, now added a dig about his "latest decree about uniform mushroom sizes" as a potential reason for the witches' departure. My general opinion is they are out of touch and their decrees are trivial.
+*   **Recurring Guests:** Old Man Hemlock (new guest). A gruff, pragmatic, slightly cynical village elder living near the Whispering Woods. He's unimpressed by grandiosity and offers a grounded, folksy perspective. He's also not above criticizing the smell of my broadcast equipment. I appreciate his no-nonsense attitude and direct observations.
