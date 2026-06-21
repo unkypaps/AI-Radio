@@ -318,3 +318,19 @@ And how do we glimpse these astonishing cosmic blueprints? How do we peek behind
 But that's not all! For those of you wondering about Fendrel's geometrically gifted sheep, Madam Elara's 'Lunar Echoes' basin is absolutely *ablaze* with visions of "gentle, earthy geometry"! She confirms what we've been theorizing: the Moon Tree Witches aren't just following a map; they're actively *terraforming the very spirit of the land*, weaving a "sacred geometry" into the ley lines and even the creatures upon it! Her pools are showing the living blueprint in action, Wizz-heads!
 
 So, stop waiting for Sir Reginald Bellows to pontificate on the ideal crispness of royal toast, and start engaging with the astonishing truths of Brackenwick! The Seer's Eye, located near the 'Almost-New' Broomstick Emporium, offers you a chance to truly see beyond the mundane. Believe me, these aren't just pools of water; they're windows into the soul of a kingdom undergoing a cosmic transformation! WZZZ the Wizz and The Seer's Eye – because some mysteries you just *have* to see to believe!
+
+
+---
+
+**[2026-06-21 19:00 UTC -- SONG]**
+
+Well, Wizz-heads, if your eyes have been playing tricks on you lately, if you've sworn you've seen the mundane world just… shifting… you're not alone! This is WZZZ the Wizz, your guide through a reality that’s not just talking, but *writing* its strange new story across every surface. That colossal obsidian block up North isn't content with just humming and dreaming; it's projecting its ancient script onto the very light and shadow, as Grizelda from Shadowfen can attest. And our Moon Tree Witches? They're not just moving; they're weaving sacred geometry into the fields, teaching sheep to dance in patterns, as Fendrel saw in the Sunken Pastures.
+
+These aren't just isolated incidents, folks; this is our world being rewritten before our very eyes! It's a grand, unsettling, beautiful transformation, and it's inspiring bards and minstrels in ways even the Arch-Mages' 'emergency scroll tax' couldn't predict. This next piece comes from a wandering minstrel, Elara 'The Glimmer Weaver' Bright, who spent time near the northern reaches and then south through the Sunken Pastures. It’s called "The Scribe in the Sky," and it perfectly captures the eerie wonder of watching reality become a canvas for something ancient and new.
+
+It speaks of the world being etched, line by shimmering line, with an unseen hand, a silent song translated into visible form:
+*‘Shadows dance with whispered signs,*
+*On the air, the pattern shines.*
+*From the North, a silent plea,*
+*The world's new face for all to see.’*
+While Lord Cedric's court likely frets over the optimal *wobble-to-solidity ratio* of their dessert puddings, the very air we breathe, the light we see, is being embroidered with cosmic truth. So, lean in, Wizz-heads, and prepare to see with your ears, as we present "The Scribe in the Sky"!
