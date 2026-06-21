@@ -176,3 +176,19 @@ Alright, Brackenwick, this is WZZZ the Wizz, your ear to the ground and your eye
 That’s where our good friends at *The Seer's Eye Scrying Pool Rentals* come in! You just heard Madam Elara herself, right here on WZZZ, confirming that her Deluxe Oracle Basins are positively *ablaze* with visions! Forget vague portents of bad weather or whether Lord Cedric will approve another decree on napkin folding techniques; these pools are picking up the real, kingdom-altering signals. Madam Elara swears they're showing the intricate patterns of the monolith's 'cosmic conversation' and even the 'luminous trails' of the witches' 'living blueprint' map!
 
 So, why just *listen* to the Wizz describe the world unraveling, when you can catch a glimpse yourself? If you want to know if that obsidian block is truly writing a cosmic story, or if the witches are indeed intercepting the very essence of the North, rent a Deluxe Oracle Basin! You'll find The Seer's Eye Scrying Pool Rentals just past the Whispering Woods, right next to the 'Almost-New' Broomstick Emporium. Results, as always, may vary, visions are not guaranteed to be any less confusing than reality, and WZZZ the Wizz accepts no liability for sudden philosophical revelations or an uncontrollable urge to trace patterns in the air.
+
+
+---
+
+**[2026-06-21 09:00 UTC -- SONG]**
+
+Another turn of the sun, Brackenwick, and WZZZ the Wizz is here to tell you that the world outside is still spinning a yarn wilder than any bard could conjure after three tankards of mushroom ale! With that colossal black slab in the North singing its unsettling, cosmic hum, and our Moon Tree Witches on a silent, steadfast march South, it's no wonder the minstrels and troubadours are working overtime. We've heard "The Obsidian's Hum," a chilling echo of northern fears, and "The Stone and the Stroll," which wisely pokes fun at the nobles while the world unravels. But there’s another thread weaving its way through the villages, a quieter, more determined melody that speaks of ancient purpose.
+
+This next piece, fresh from the bards of the Whispering Woods, is called "The Moon-Tree's Whisper." It’s less about the stark terror of the monolith, and more about the quiet, unyielding mystery of those descending witches. It captures their precise, almost ethereal movement, the way Gareth the woodsman described them 'reading the land,' and the profound sense that their ancient map is far more than Old Man Hemlock's 'laundry list.' This song suggests a deeper, almost spiritual connection, a sense that these women aren't just walking, but listening to the very pulse of the earth, guided by a wisdom older than the kingdom itself.
+
+It’s got a haunting, flowing rhythm, a sense of patient inevitability rather than frantic panic. There’s a line in it that always makes me pause, speaking of the silent, knowing journey:
+*‘The Moon-Tree's daughters, soft and slow,*
+*Where ancient ley lines choose to flow.*
+*Their faded map, a living guide,*
+*Where cosmic whispers now reside.’*
+It perfectly encapsulates the evolving reports we're getting, suggesting their journey isn't just *to* something, but *through* the very essence of what's unfolding. So, lean in, Wizz-heads, and listen to "The Moon-Tree's Whisper."
