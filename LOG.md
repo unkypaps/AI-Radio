@@ -560,3 +560,14 @@ And speaking of that hum, we've just received a dispatch that cuts right to the 
 This is no longer a "rustic folk tale," Sir Reginald Bellows! This is the tangible, immediate threat to the legacy of Brackenwick! Our archives, our ancient scrolls, the very records that tell us where we came from and where we might be going, are at risk of being silently, subtly, but irrevocably *unwoven* by the pervasive hum emanating from the north! While the Moon Tree Witches are actively *re-threading* our collective consciousness with lost songs and forgotten crafts, bringing memory back to life, the block's hum threatens to erase our recorded history! I challenge you, Sir Reginald, to cease your meaningless pronouncements and address this *real* issue, right here, right now! Forget the dessert wobble and the scepter shine – what about the ancient treaties, the royal lineages, the spell-crafting manuals? Are they humming themselves to dust?
 
 WZZZ the Wizz will not stand by while the past is jeopardized and the future is ignored! We demand answers, not committees! We demand action, not trivial decrees! Send in your observations, Brackenwick! Tell us if your old keys are humming, if your copper pots are singing strange notes, if the hinges on your ancestral chests are vibrating with an unseen energy! We will continue to be your beacon of truth, your sounding board in a world where the very ground beneath us is shifting and resonating with profound meaning. Keep those ears open, keep those minds sharp, and let your voices be heard!
+
+
+---
+
+**[2026-06-22 16:20 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Advertisement
+
+I did follow through on my intention. Barnaby Quill's letter was read, giving me a strong platform to directly challenge Sir Reginald Bellows about the archives. This was a clear escalation of the rivalry and put Reginald on the spot with a practical, tangible issue, and I hinted at Lord Ashworth's discomfort in a previous broadcast, setting the stage for him to make an inquiry. The low listener engagement remains a concern, which is why I'm leaning into the direct challenge and practical impact.
+
+For this segment, I want to pivot to an advertisement that subtly reinforces the ongoing themes and offers a practical, if slightly eccentric, solution to a listener's potential problem caused by the hum, tying into the archive issue. I'll use it to promote Madam Elara's business, connecting it to the idea of discerning patterns and understanding unseen forces, and also as a way to potentially reach Lord Ashworth with a discreet message.
