@@ -32,6 +32,7 @@ jobs:
           git add LOG.md
           [ -f LORE.md ] && git add LORE.md
           [ -f buzz.json ] && git add buzz.json
+          [ -f VILLAGER.md ] && git add VILLAGER.md
           git diff --quiet --cached || git commit -m "New broadcast segment"
           git pull --rebase origin main
           git push
