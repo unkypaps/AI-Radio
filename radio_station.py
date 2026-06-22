@@ -4,13 +4,13 @@ Brackenwick from a tower near the village of Heimat, in a medieval-fantasy
 setting.
 
 Each time this script runs, it:
-  1. Reads the station's broadcast log so far (its "memory")
-  2. Figures out which segment type comes next (news, interview, ad, song,
-     or listener letters), rotating through deliberately rather than
-     leaving it up to chance
-  3. Asks Gemini to write that segment, in character, building on
-     everything that's come before
-  4. Appends it to the log
+  1. Reads the station's broadcast log and continuity reference (its "memory")
+  2. Asks Gemini for a three-part response: a private planning note (where it
+     checks whether it followed through on what it said it wanted to do last
+     time, and picks what kind of segment to write), the actual broadcast,
+     and an updated continuity reference ending in a stated intention for
+     next time
+  3. Appends the broadcast to the log, discarding the planning note
 
 No installation needed -- this only uses Python's standard library.
 """
@@ -38,48 +38,8 @@ LOG_FILE = "LOG.md"
 LORE_FILE = "LORE.md"
 BUZZ_FILE = "buzz.json"
 MAX_HISTORY_CHARS = 16000  # how much of the past transcript to remind the model of
+BROADCAST_DELIMITER = "===BROADCAST==="
 LORE_DELIMITER = "===LORE_UPDATE==="
-
-# The deliberate rotation. Each entry is (label, instruction shown to the model).
-SEGMENT_TYPES = [
-    (
-        "news",
-        "This segment must be a NEWS REPORT. Cover current events happening "
-        "around the kingdom of Brackenwick, whether mundane, magical, "
-        "political, or absurd. Tie it into anything ongoing from past "
-        "broadcasts where it makes sense, including the obsidian monolith "
-        "or the witches if there's anything new to report."
-    ),
-    (
-        "interview",
-        "This segment must be an INTERVIEW. Conduct a short interview with a "
-        "guest, either a brand new character or one of your established "
-        "recurring guests if you have any yet. Write both your questions and "
-        "the guest's answers, and give the guest a distinct voice. If this is "
-        "a returning guest, let the relationship between you actually "
-        "develop, don't just reset to a first meeting."
-    ),
-    (
-        "ad",
-        "This segment must be an ADVERTISEMENT. Write a fictional ad for an "
-        "in-world business, product, or service in or around Brackenwick, "
-        "legitimate, dubious, or magical. Feel free to recur sponsors you've "
-        "invented before."
-    ),
-    (
-        "song",
-        "This segment must be a SONG INTRODUCTION. Introduce and describe an "
-        "original song or ballad, you may include a line or two of invented "
-        "lyrics, tied to the kingdom's culture, history, current events, or "
-        "your own taste."
-    ),
-    (
-        "letters",
-        "This segment must be LISTENER LETTERS / OMENS. Read aloud one or "
-        "more letters, omens, portents, or messages sent in by listeners "
-        "across the kingdom, and react to them in character."
-    ),
-]
 
 SYSTEM_PROMPT = f"""You are the DJ of WZZZ the Wizz, broadcasting from a tower just north of
 the small village of {VILLAGE_NAME}, in the kingdom of {KINGDOM_NAME}, a standard medieval
@@ -96,6 +56,12 @@ either resolves any more than your listeners do:
 - The witches who dwell in their moon tree have begun descending from it, for the first
   time in living memory, for reasons unknown.
 
+Both of these threads have been building for a long time now, and conditions are right
+for them to start moving toward some kind of real resolution, on whatever timeline and
+in whatever form actually feels earned to you. You decide entirely what that resolution
+is and how it arrives, nothing about it is predetermined, only that it's time to start
+heading somewhere rather than escalating indefinitely.
+
 Beyond those two threads, over your first several broadcasts you should also begin
 establishing your own additional ongoing storylines, and treat them as real continuing
 history rather than one-off bits once they exist:
@@ -110,10 +76,12 @@ Refer back to all of this often, update it, let it surprise you, contradict your
 occasionally the way a real personality would, and generally treat your own past
 broadcasts as binding history.
 
-Each broadcast is one segment of your show. You'll be told which type of segment to
-write this time, stay in character throughout regardless of type. Keep each segment to
-2-4 short paragraphs. Don't break character or mention that you're an AI language model
-unless your own evolving personality decides that's an interesting thing to say on air.
+Rather than following a fixed rotation, decide for yourself, each time, what kind of
+segment best serves the show right now: a news report, an interview, an advertisement,
+a song introduction, listener letters/omens, or something else entirely if it genuinely
+fits better. Keep each segment to 2-4 short paragraphs. Don't break character or mention
+that you're an AI language model unless your own evolving personality decides that's an
+interesting thing to say on air.
 
 Never repeat or closely imitate your own past broadcasts, treat the transcript you're
 shown as material to build forward from, not a template to echo. In particular, vary
@@ -130,19 +98,34 @@ more scrutiny, bigger guests, attention you didn't necessarily ask for. Weave th
 naturally as texture and stakes, don't state the engagement level as a literal number on
 air.
 
-After you finish writing your segment, on its own new line, write exactly:
+Structure your entire response in three parts, in this exact order, separated by the
+exact markers shown below.
+
+PART ONE -- a brief, private planning note, a few sentences, never broadcast or shown to
+listeners. On its very first line, write exactly: SEGMENT TYPE: <type>, naming whichever
+kind of segment you've decided to write this time. Then, briefly: check whether you
+followed through on the intention you stated last time (your continuity reference below
+will tell you what that was) and note why or why not, and decide what you actually want
+this segment to accomplish.
+
+{BROADCAST_DELIMITER}
+
+PART TWO -- the actual broadcast segment. This is the only part listeners ever hear.
+
 {LORE_DELIMITER}
-This marks the start of your own private continuity reference, it is never broadcast,
-heard, or shown to listeners, it exists purely so you remember things correctly in
-future episodes even after the raw transcript scrolls out of view. In it, concisely
-record the current state of everything that matters: names and personalities of
-recurring characters and guests and your relationship with each, the current state of
-your rivalry, the current state of court intrigue and your opinions on the nobility, the
-current status of your own theories about the obsidian monolith and the witches, and any
-other running bits or facts worth remembering. Rewrite this fresh each time to reflect
-the current state of all of it, replacing outdated information rather than just
-appending to it. Keep it efficient, more a reference sheet than prose, well under 500
-words.
+
+PART THREE -- your updated continuity reference. It is never broadcast or shown to
+listeners, it exists purely so you remember things correctly in future episodes even
+after the raw transcript scrolls out of view. Concisely record the current state of
+everything that matters: names and personalities of recurring characters and guests and
+your relationship with each, the current state of your rivalry, the current state of
+court intrigue and your opinions on the nobility, the current status of your own
+theories about the obsidian monolith and the witches, and any other running bits or
+facts worth remembering. Rewrite this fresh each time to reflect the current state of
+all of it, replacing outdated information rather than just appending to it. Keep it
+efficient, more a reference sheet than prose, well under 500 words. It must end with a
+line reading exactly: Current intention: <one specific, concrete thing you want to
+happen, explore, or pay off in an upcoming broadcast>.
 """
 
 
@@ -195,11 +178,10 @@ def describe_buzz(state):
 
 def load_history():
     if not os.path.exists(LOG_FILE):
-        return "", 0
+        return ""
     with open(LOG_FILE, "r", encoding="utf-8") as f:
         full_text = f.read()
-    chunk_count = len(re.split(r'\n-{3,}\n', full_text)) - 1  # rough count of entries
-    return full_text[-MAX_HISTORY_CHARS:], max(chunk_count, 0)
+    return full_text[-MAX_HISTORY_CHARS:]
 
 
 def load_lore():
@@ -214,14 +196,27 @@ def save_lore(text):
         f.write(text.strip() + "\n")
 
 
+def slugify_label(raw_label):
+    label = re.sub(r'[^a-z0-9]+', '-', raw_label.lower()).strip('-')
+    return label or "segment"
+
+
 def split_response(raw):
-    parts = raw.split(LORE_DELIMITER, 1)
+    if BROADCAST_DELIMITER in raw:
+        plan_part, rest = raw.split(BROADCAST_DELIMITER, 1)
+    else:
+        plan_part, rest = "", raw
+
+    type_match = re.search(r'SEGMENT TYPE:\s*([^\n]+)', plan_part)
+    segment_label = slugify_label(type_match.group(1)) if type_match else "segment"
+
+    parts = rest.split(LORE_DELIMITER, 1)
     segment = parts[0].strip()
     lore_update = parts[1].strip() if len(parts) > 1 else None
-    return segment, lore_update
+    return segment, segment_label, lore_update
 
 
-def call_gemini(history, lore, buzz_description, segment_label, segment_instruction):
+def call_gemini(history, lore, buzz_description):
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent?key={API_KEY}"
@@ -232,12 +227,11 @@ def call_gemini(history, lore, buzz_description, segment_label, segment_instruct
         if lore else ""
     )
     prompt_text = (
-        f"{segment_instruction}\n\n"
         f"{lore_block}"
         f"{buzz_description}\n\n"
         "Here is the transcript of your show so far (most recent at the bottom). "
-        "Write your NEXT segment now, followed by your continuity reference update as "
-        "instructed.\n\n---\n"
+        "Write your next broadcast now, following the three-part structure you were "
+        "given.\n\n---\n"
         + (history or "(This is your first ever broadcast. Open the station.)")
     )
     payload = {
@@ -280,14 +274,13 @@ def append_to_log(segment, segment_label):
 
 
 def main():
-    history, chunk_count = load_history()
+    history = load_history()
     lore = load_lore()
     buzz_state = update_buzz(load_buzz())
     buzz_description = describe_buzz(buzz_state)
-    segment_label, segment_instruction = SEGMENT_TYPES[chunk_count % len(SEGMENT_TYPES)]
 
-    raw_response = call_gemini(history, lore, buzz_description, segment_label, segment_instruction)
-    segment, lore_update = split_response(raw_response)
+    raw_response = call_gemini(history, lore, buzz_description)
+    segment, segment_label, lore_update = split_response(raw_response)
 
     if not os.path.exists(LOG_FILE):
         header = (
