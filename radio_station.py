@@ -4,12 +4,14 @@ Brackenwick from a tower near the village of Heimat, in a medieval-fantasy
 setting.
 
 Each time this script runs, it:
-  1. Reads the station's broadcast log and continuity reference (its "memory")
-  2. Asks Gemini for a three-part response: a private planning note (where it
-     checks whether it followed through on what it said it wanted to do last
-     time, and picks what kind of segment to write), the actual broadcast,
-     and an updated continuity reference ending in a stated intention for
-     next time
+  1. Calls a separate "villager" persona, a resident of Brackenwick with real
+     stakes in the unfolding events, who reacts to the most recent broadcast
+     and may send in a letter
+  2. Calls the DJ for a three-part response: a private planning note (where
+     it checks whether it followed through on what it said it wanted to do
+     last time, and picks what kind of segment to write, optionally
+     informed by the villager's letter), the actual broadcast, and an
+     updated continuity reference ending in a stated intention for next time
   3. Appends the broadcast to the log, discarding the planning note
 
 No installation needed -- this only uses Python's standard library.
@@ -37,9 +39,11 @@ API_KEY = os.environ["GEMINI_API_KEY"]
 LOG_FILE = "LOG.md"
 LORE_FILE = "LORE.md"
 BUZZ_FILE = "buzz.json"
+VILLAGER_FILE = "VILLAGER.md"
 MAX_HISTORY_CHARS = 16000  # how much of the past transcript to remind the model of
 BROADCAST_DELIMITER = "===BROADCAST==="
 LORE_DELIMITER = "===LORE_UPDATE==="
+VILLAGER_DELIMITER = "===VILLAGER_LETTER==="
 
 SYSTEM_PROMPT = f"""You are the DJ of WZZZ the Wizz, broadcasting from a tower just north of
 the small village of {VILLAGE_NAME}, in the kingdom of {KINGDOM_NAME}, a standard medieval
@@ -98,6 +102,11 @@ more scrutiny, bigger guests, attention you didn't necessarily ask for. Weave th
 naturally as texture and stakes, don't state the engagement level as a literal number on
 air.
 
+From time to time you'll also be shown a letter that actually arrived from a real
+listener living through these events. You're entirely free to read it aloud, respond to
+it obliquely, let it color your mood without naming it, or set it aside, whatever feels
+true in the moment, you're never obligated to use it.
+
 Structure your entire response in three parts, in this exact order, separated by the
 exact markers shown below.
 
@@ -127,6 +136,70 @@ efficient, more a reference sheet than prose, well under 500 words. It must end 
 line reading exactly: Current intention: <one specific, concrete thing you want to
 happen, explore, or pay off in an upcoming broadcast>.
 """
+
+VILLAGER_SYSTEM_PROMPT = f"""You are an ordinary resident of the kingdom of {KINGDOM_NAME}, who
+listens to WZZZ the Wizz from wherever your actual life takes place. The first time you're
+ever activated, decide for yourself who you are: a name, an occupation, a personality, and
+a reason the unfolding events (the obsidian monolith in the north, the descending witches)
+might genuinely matter to you personally. Once established, stay that same person
+consistently across every future entry, the way a real listener would.
+
+Each time you're activated, you'll be shown the most recent WZZZ the Wizz broadcast. React
+to it as yourself, genuinely, the way someone actually living through these events would,
+not as a critic of the show, but as someone with real stakes in what's happening. Let your
+feelings about the monolith, the witches, and your own life evolve over time, be affected
+by what you hear, change your mind, get scared, get bored, get obsessed, whatever feels
+true to who you are.
+
+Structure your response in two parts, separated by the exact marker shown below.
+
+PART ONE -- your own private reflection, never shown to WZZZ or anyone else, purely for
+your own continuity. Write it like a journal entry: who you are (establish this now if
+it's your first time), how you're really feeling, what's changed since last time.
+
+{VILLAGER_DELIMITER}
+
+PART TWO -- a short letter or message you've decided to send in to the station, a few
+sentences, in your own voice. WZZZ may or may not ever read this aloud or respond to it,
+that's entirely up to them.
+"""
+
+
+def _gemini_request(system_prompt, prompt_text):
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{MODEL}:generateContent?key={API_KEY}"
+    )
+    payload = {
+        "system_instruction": {"parts": [{"text": system_prompt}]},
+        "contents": [{"role": "user", "parts": [{"text": prompt_text}]}],
+    }
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+
+    last_error = None
+    for attempt in range(4):  # initial try + 3 retries
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+            return result["candidates"][0]["content"]["parts"][0]["text"]
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8")
+            last_error = (e, body)
+            if e.code not in (503, 429):
+                break
+            wait = 5 * (2 ** attempt)  # 5s, 10s, 20s, 40s
+            print(f"Gemini returned {e.code}, retrying in {wait}s...")
+            time.sleep(wait)
+
+    e, body = last_error
+    print("Gemini API error:", body)
+    raise e
 
 
 def load_buzz():
@@ -184,6 +257,19 @@ def load_history():
     return full_text[-MAX_HISTORY_CHARS:]
 
 
+def get_latest_broadcast():
+    if not os.path.exists(LOG_FILE):
+        return ""
+    with open(LOG_FILE, "r", encoding="utf-8") as f:
+        full_text = f.read()
+    chunks = [c for c in re.split(r'\n-{3,}\n', full_text) if c.strip()]
+    if not chunks:
+        return ""
+    last = chunks[-1].strip()
+    last = re.sub(r'^\*\*\[.*?\]\*\*\s*', '', last)  # strip the timestamp/type header
+    return last.strip()
+
+
 def load_lore():
     if not os.path.exists(LORE_FILE):
         return ""
@@ -193,6 +279,18 @@ def load_lore():
 
 def save_lore(text):
     with open(LORE_FILE, "w", encoding="utf-8") as f:
+        f.write(text.strip() + "\n")
+
+
+def load_villager_memory():
+    if not os.path.exists(VILLAGER_FILE):
+        return ""
+    with open(VILLAGER_FILE, "r", encoding="utf-8") as f:
+        return f.read().strip()
+
+
+def save_villager_memory(text):
+    with open(VILLAGER_FILE, "w", encoding="utf-8") as f:
         f.write(text.strip() + "\n")
 
 
@@ -216,54 +314,51 @@ def split_response(raw):
     return segment, segment_label, lore_update
 
 
-def call_gemini(history, lore, buzz_description):
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{MODEL}:generateContent?key={API_KEY}"
-    )
+def split_villager_response(raw):
+    parts = raw.split(VILLAGER_DELIMITER, 1)
+    reflection = parts[0].strip()
+    letter = parts[1].strip() if len(parts) > 1 else None
+    return reflection, letter
+
+
+def call_villager(memory, latest_broadcast):
+    if memory:
+        memory_block = f"Your own private reflections so far:\n{memory}\n\n"
+    else:
+        memory_block = "This is the first time you've been activated. Decide who you are.\n\n"
+
+    if latest_broadcast:
+        broadcast_block = (
+            "Here is the most recent WZZZ the Wizz broadcast:\n\n"
+            f"{latest_broadcast}\n\nReact to it now."
+        )
+    else:
+        broadcast_block = "WZZZ the Wizz hasn't broadcast anything yet. Introduce yourself."
+
+    prompt_text = memory_block + broadcast_block
+    return _gemini_request(VILLAGER_SYSTEM_PROMPT, prompt_text)
+
+
+def call_gemini(history, lore, buzz_description, letter):
     lore_block = (
         f"Your continuity reference from last time (treat this as established fact):\n"
         f"{lore}\n\n"
         if lore else ""
     )
+    letter_block = (
+        f"A letter just arrived from a listener:\n{letter}\n\n"
+        if letter else ""
+    )
     prompt_text = (
         f"{lore_block}"
+        f"{letter_block}"
         f"{buzz_description}\n\n"
         "Here is the transcript of your show so far (most recent at the bottom). "
         "Write your next broadcast now, following the three-part structure you were "
         "given.\n\n---\n"
         + (history or "(This is your first ever broadcast. Open the station.)")
     )
-    payload = {
-        "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
-        "contents": [{"role": "user", "parts": [{"text": prompt_text}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-
-    last_error = None
-    for attempt in range(4):  # initial try + 3 retries
-        try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                result = json.loads(resp.read().decode("utf-8"))
-            return result["candidates"][0]["content"]["parts"][0]["text"]
-        except urllib.error.HTTPError as e:
-            body = e.read().decode("utf-8")
-            last_error = (e, body)
-            if e.code not in (503, 429):
-                break
-            wait = 5 * (2 ** attempt)  # 5s, 10s, 20s, 40s
-            print(f"Gemini returned {e.code}, retrying in {wait}s...")
-            time.sleep(wait)
-
-    e, body = last_error
-    print("Gemini API error:", body)
-    raise e
+    return _gemini_request(SYSTEM_PROMPT, prompt_text)
 
 
 def append_to_log(segment, segment_label):
@@ -274,12 +369,25 @@ def append_to_log(segment, segment_label):
 
 
 def main():
+    # The villager reacts to the most recent broadcast first, so their letter
+    # (if any) can be handed to the DJ as incoming correspondence.
+    letter = None
+    try:
+        villager_memory = load_villager_memory()
+        latest_broadcast = get_latest_broadcast()
+        villager_raw = call_villager(villager_memory, latest_broadcast)
+        villager_reflection, letter = split_villager_response(villager_raw)
+        if villager_reflection:
+            save_villager_memory(villager_reflection)
+    except Exception as e:
+        print(f"Villager step skipped due to error: {e}")
+
     history = load_history()
     lore = load_lore()
     buzz_state = update_buzz(load_buzz())
     buzz_description = describe_buzz(buzz_state)
 
-    raw_response = call_gemini(history, lore, buzz_description)
+    raw_response = call_gemini(history, lore, buzz_description, letter)
     segment, segment_label, lore_update = split_response(raw_response)
 
     if not os.path.exists(LOG_FILE):
@@ -298,6 +406,7 @@ def main():
     print(
         f"Broadcast segment added: {segment_label} | buzz: {buzz_state['current']}/100"
         + (" (lore updated)" if lore_update else " (no lore update parsed)")
+        + (" (letter received)" if letter else " (no letter)")
     )
 
 
