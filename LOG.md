@@ -730,3 +730,12 @@ Sources—and believe me, it took some doing to get clarity through the sheer co
 But even as the north seeks to cloud our minds and disorganize our very kingdom, the south, through the Moon Tree Witches, continues its quiet, steadfast work of re-threading. I had another chat with Maeve from Sunken Pastures this morning, and she had a delightful update regarding our gruff friend, Old Man Hemlock. It seems he not only took her up on the offer to teach him a knot for his fishing net, but he’s actually *succeeded*! Maeve reports, "He came by again, all huffy and puffy, complaining about 'too many loops' and 'what's wrong with a simple overhand knot?' But then he showed me a newly tied trap, strong and perfectly formed, using the very 'Fisherman's Bane' knot I taught him. Said it was 'unnecessarily fancy, but it holds a good pike, I suppose.' He even asked for another one!" So there you have it, Brackenwick. While royal proclamations are being bungled and scribes lose their wits, Old Man Hemlock is tying knots and catching pike with newfound, re-awakened precision.
 
 It's clear, Wizz-heads, that this battle for clarity is real. The north seeks to lull us into lethargy and chaos, while the south re-awakens our dormant memories and skills. Your vigilance, your active listening, and your discerning minds are more crucial than ever. Don't let the hum silence your critical spirit or unravel your resolve. WZZZ the Wizz will continue to broadcast the full, unvarnished truth, because even when the court fumbles, the people deserve to know which threads are holding, and which are unraveling.
+
+
+---
+
+**[2026-06-23 14:02 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Listener-Letters-Omens
+
+I successfully documented the royal embarrassment and Old Man Hemlock's grudging acceptance of the new knot. My intention was for Lord Ashworth to take a tangible, public action, and for Sir Reginald's influence to decline. The newly arrived letter from Alistair Finch directly addresses the royal embarrassment and contrasts it with the witches' influence, providing a perfect segue to discuss court reactions and reinforce WZZZ's role. I will read the letter and use it to praise Lord Ashworth (implicitly) and highlight the need for decisive action from the court against the mental fog, while further diminishing Sir Reginald's credibility in light of the official bungling. This also allows me to respond directly to a listener, which is good for middling engagement.
