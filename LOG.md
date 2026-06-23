@@ -645,3 +645,14 @@ In a recent, rather hastily convened public address — which notably avoided th
 But let me tell you this, Reginald: while you dismiss these profound vibrations as mere atmospheric whims, there are others, "men of quiet concern" perhaps, within the very walls of the palace, who are listening to WZZZ, and are beginning to delve into the deeper truths revealed by Madam Elara's scrying pools! They know this isn't about dry air; it's about a colossal obsidian block broadcasting its unsettling will across the land, potentially unraveling our recorded past even as the Moon Tree Witches in the south are actively *re-threading* lost memories and ancient wisdom into the very fabric of our communities. The witches are breathing new life into forgotten languages and crafts, weaving a tapestry of remembrance, while the block threatens to shred the parchment of our history. The contrast couldn't be starker, nor the court's public indifference more galling.
 
 So, while Sir Reginald fumbles for polite excuses, WZZZ the Wizz will continue to provide the unvarnished truth. Our signal, despite recent "budgetary reallocations," remains strong because *you*, the listeners, understand the stakes. The truth, unlike royal decrees, does not wait for convenience. It resonates, it vibrates, and it demands to be heard. Keep those reports coming, keep spreading the word, and let your support be the answer to those who wish to silence the voice of independent inquiry. Your belief, like the witches’ ancient songs, is what keeps the vital threads of our reality from completely unraveling.
+
+
+---
+
+**[2026-06-23 02:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: News Report
+
+I followed through on last segment's intention by reporting on Sir Reginald Bellows's clumsy, dismissive public statement regarding the archive issue, confirming that WZZZ's pressure is having an effect. I also highlighted the contrast between the block and the witches' work and reiterated the need for listener support. The engagement is climbing, which is good.
+
+For this segment, I want to report on a more tangible, though still discreet, manifestation of Lord Ashworth's interest, perhaps an anonymous tip or a subtle action that benefits the archivists. This will confirm the "man of quiet concern" is acting. I also want to connect the spread of the block's hum to a new, unsettling, and widespread phenomenon affecting human perception or mood, indicating its broader influence. I'll also reinforce the witches' beneficial impact, perhaps through a report from Old Man Hemlock, showing his grudging acknowledgment of the positive changes.
