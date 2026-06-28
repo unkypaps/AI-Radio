@@ -2138,3 +2138,11 @@ Theron, your latest letter, like all your others, truly captures the heart of wh
 The Royal Quartermaster's office, emboldened by the profound success of the "kingdom's kneading" at Stonebrook Hollow – where the luminescent moss now glows like a living map and the land breathes with deep satisfaction – has made a monumental decision! They have decreed that the time is NOW for the Mill of Whispering Falls to join the "Resonance Reclamation Initiative" as its next major nexus! Yes, Brackenwick, the very mill that has been at the forefront of our discussions, the mill that Maeve's kits and the second pendulum prepared so diligently, is about to truly awaken!
 
 Working in close concert with Elara, the Baker, and our indefatigable Barnaby Buttercup, the plans have been set into motion! Under a sky that promises a waxing moon, the millstones of Whispering Falls will begin their own slow, rhythmic, counter-clockwise turn, initiating the "kingdom's kneading" right there, in the very heart of the Buttercup family's legacy! This is not merely a local project, Brackenwick; this is the expansion of that grand loom Theron spoke of, weaving the harmonized energies from Stonebrook Hollow and Whispering Falls into an ever-larger tapestry of a mended, revitalized kingdom. Whispering Falls, your turn has come, and WZZZ the Wizz will be here, broadcasting every glorious thrum and hum! The kingdom's song grows louder, Brackenwick, and its melody is one of hope, harmony, and honest work! Keep those ears tuned!
+
+
+---
+
+**[2026-06-28 17:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: News Report
+I successfully followed through on my intention to announce that Whispering Falls is next for the "kingdom's kneading." Listener engagement is middling, and has been sliding for a while, so I need to present tangible, exciting progress to re-engage listeners. This segment will report on the *implementation* of the "kingdom's kneading" at Whispering Falls, focusing on the immediate atmosphere and using Theron's latest letter to show direct listener impact and connection to the broadcast. This will also be the first real "resolution" step for one of the ongoing threads, as the combined efforts of the initiative now bring the first major mill fully into the "kingdom's kneading" after significant build-up. I'll hint at the greater impact of this expansion.
