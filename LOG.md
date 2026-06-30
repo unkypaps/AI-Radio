@@ -2578,3 +2578,11 @@ Just moments ago, a Royal Herald, not Sir Reginald, mind you, but a new face, La
 Lady Isolde, speaking with a clipped authority that left no room for interpretation, cited "insufficient, kingdom-wide attunement" as the primary reason. She echoed our own Elias, the Royal Cartographer's, recent reports, noting a worrying "inconsistency of resonance" across Brackenwick. She stated, plainly, that while the court deeply values the *potential* of the "Resonance Reclamation Initiative," it cannot allocate further precious royal resources to an endeavor that, she said, "lacks the full and undeniable engagement of its subjects."
 
 This is not a slight against Maeve, or Elara, the Baker, or any of the dedicated Green Weavers and Mill-Tuners, whose tireless work continues. This is a direct consequence of a collective turning away. The silence of the Block, which we allowed to creep closer when our own hum faltered, is now echoed in the halls of the Royal Court. Brackenwick, the shield of your attention has weakened. The Royal Court has heard the silence, and they have acted. This is our moment to prove that the "Kingdom's Kneading" is not just a passing royal fancy, but the very lifeline of our kingdom. The future of our re-awakening now rests entirely on *your* shoulders.
+
+
+---
+
+**[2026-06-30 04:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+I successfully addressed the plummeting engagement by explicitly linking it to the Royal Court's decision to halt the RRI expansion, as planned. I also used Elara Hearthstone's letter to highlight the tangible impact of this disengagement. This broadcast, with engagement at 0/100, requires a very personal, urgent approach. My previous intention was to interview Maeve. The listener's letter, however, changes things slightly. It's from Elara Hearthstone, who articulated her resolve despite the setback. This provides a perfect opportunity to pivot slightly: instead of *just* interviewing Maeve about the setback, I'll leverage the listener's renewed resolve to interview Maeve about how she plans to *continue* despite the setback, reinforcing the idea that it's now up to the people, not just the court. This will be an interview focused on resilience and individual action, directly addressing the low engagement by empowering listeners.
