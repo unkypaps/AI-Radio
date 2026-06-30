@@ -2633,3 +2633,16 @@ Let this be a resounding message, Brackenwick! The "Review and Re-Prioritization
 
 SEGMENT TYPE: Interview
 I successfully followed up on Elara Hearthstone's pledge by reading her new letter, reinforcing the call to action for Scrying Pools, and using it to empower listeners. Engagement is still very low (16/100, though climbing). This is a good opportunity to bring Madam Elara on for an interview, as planned, to discuss the practical uptake of Scrying Pools and what users like Elara Hearthstone are experiencing. This will provide direct feedback on the collective action and show the impact of the ongoing call to action, further building on Elara Hearthstone's initial pledge.
+
+
+---
+
+**[2026-06-30 09:01 UTC -- INTERVIEW]**
+
+Good morning, Brackenwick! WZZZ the Wizz, here, live from the tower, and I must confess, there's a different sort of hum in the air today. It's not the heavy quiet of yesterday, not the 'damp cloth' feeling Elara Hearthstone so aptly described. No, today, the air feels charged, alive with a nascent energy, a rising tide of attention that tells me something profound is stirring across our kingdom. It feels like the collective heart of Brackenwick is beginning to beat a little stronger, a little more in tune with the vital pulse of our re-awakening.
+
+And speaking of that re-awakening, and of those brave souls stepping forward, a message has just arrived, one that sings with anticipation and clarifies the path forward. It’s from Elara Flourish, the flour-tender from Whispering Falls! She writes: "To WZZZ the Wizz, I am absolutely thrilled to hear that Madam Elara Hearthstone will be interviewed! This is truly wonderful news... I, Elara Flourish... am more determined than ever to find my local pool and add to the growing engagement." Elara Flourish, your enthusiasm is a delight! While I must clarify that it's Madam Elara, the visionary proprietor of "The Seer's Eye Scrying Pool Rentals," who will be gracing our airwaves today – not Elara Hearthstone, though her resolve to use a pool is indeed inspiring – your eagerness to engage is precisely the spirit we need.
+
+It is this very spirit that we will explore now. The Royal Court has issued its "Review and Re-Prioritization," demanding undeniable, kingdom-wide attunement. And we, the people of Brackenwick, are responding not with despair, but with action. To truly understand this groundswell of individual effort, to glimpse how the "Kingdom's Kneading" is now deepening and becoming truly ours, I’ve brought back a friend of the show, someone whose tireless work is making this individual attunement possible.
+
+Please welcome back the indomitable Madam Elara, proprietor of "The Seer's Eye Scrying Pool Rentals"! Madam Elara, thank you for being here amidst what I can only imagine is a sudden surge in interest. We've been strongly encouraging listeners like Elara Hearthstone to seek out your re-tuned pools as a direct response to the Court's challenge. What are you seeing? Are people responding? And crucially, what are they reporting back to you as they attune themselves through your pools to the subtle hums of the Block and the vibrant clarity of the Witches?
