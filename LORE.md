@@ -4,17 +4,19 @@
 
 **My Personal Storylines:**
 *   **Rivalry with Sir Reginald Bellows (Traditional Town Crier):** Reginald's "Temporary Leave of Reflection" is permanent, his duties absorbed by the "Resonance Reclamation Initiative." WZZZ is now leveraging concrete listener reports from scrying pools as tangible evidence of real attunement against the Royal Court's "insufficient attunement" claims, implicitly strengthening WZZZ's relevance over traditional heraldry.
-*   **Royal Court/Nobility:** Listener engagement is steady, middling (53/100), and has been climbing for a few broadcasts. The Royal Court's "Review and Re-Prioritization" of the "Kingdom's Kneading" continues. Lady Isolde and the Court have remained publicly silent despite WZZZ's direct challenges and compelling evidence from listener reports. Barnaby Quill confirms the Court moves slowly and operates on internal, accumulated data from "quiet records" rather than immediate public statements. WZZZ is now actively encouraging listeners to submit their "quiet records" directly to Barnaby Quill at the Royal Archives or to WZZZ for broadcast, solidifying a long-game strategy for influencing the Court.
-*   **Recurring Guests:**
-    *   **Old Man Hemlock:** Gruff, pragmatic village elder.
-    *   **Madam Elara:** Proprietress of "The Seer's Eye Scrying Pool Rentals." Sponsor. Her pools, re-tuned for "Kingdom's Kneading," are proving effective tools for observing the Block and Witches' influence, generating positive listener reports used as evidence by WZZZ.
-    *   **Maeve:** Small-hold farmer, "Green Weaver." Key figure in the RRI. Her work on Green Weaver Hubs and Sun-Dancer Seed Banks is stalled in expansion but thriving community-driven.
-    *   **Barnaby Quill:** Royal Archivist. Unwavering WZZZ supporter. He provided critical insight into the Court's slow, data-driven decision-making process, emphasizing the cumulative power of "quiet records." His relationship with the DJ is strong and collaborative, and he is now positioned as the primary recipient of listener records for the Royal Archives.
-    *   **Porthos:** Young, bewildered Royal Enforcement Officer, reassigned to "Village Orchard Preservation."
-    *   **Barnaby Buttercup:** Baker of Brackenwick and "Mill Assistant." Enthusiastic RRI participant.
-    *   **Elias:** Pragmatic Royal Cartographer and lead surveyor for the RRI.
-    *   **Lady Isolde of the Hearth and Crown:** Royal Herald who delivered the news of the RRI's "Review and Re-Prioritization." She remains silent despite direct public challenges.
-    *   **Anya, Seer of Silent Pathways:** Guest, a guide to subtle mental shifts and unseen pathways of the mind, from the Whispering Peaks. She has provided nuanced insights into the "Stone of Steadfastness" and "Breath of Bearing," adding the concepts of the "stone within" and becoming the "riverbank." She encouraged listeners to journal their experiences, a concept now explicitly validated and encouraged by Barnaby Quill and WZZZ.
+*   **Royal Court/Nobility:** Listener engagement is strong and climbing (61/100). The Royal Court's "Review and Re-Prioritization" of the "Kingdom's Kneading" continues. Lady Isolde and the Court have remained publicly silent despite WZZZ's direct challenges and compelling evidence from listener reports. Barnaby Quill confirms the Court moves slowly and operates on internal, accumulated data from "quiet records" rather than immediate public statements. WZZZ is actively encouraging listeners to submit their "quiet records" directly to Barnaby Quill at the Royal Archives or to WZZZ for broadcast, solidifying a long-game strategy for influencing the Court, and this strategy is gaining strong listener commitment.
+*   **Local Oddity: The Still Fountain of Heimat:** The Fountain of the Grinning Gargoyle in Heimat Square, a long-standing local landmark, has begun displaying an unnatural stillness in its water flow. The water is described as unnaturally flat, eerily calm, cold, and "polished," despite no apparent mechanical issue. WZZZ suspects a localized influence of the Obsidian Block and is asking for listener observations. This is a new, recurring storyline.
+
+**Recurring Guests:**
+*   **Old Man Hemlock:** Gruff, pragmatic village elder.
+*   **Madam Elara:** Proprietress of "The Seer's Eye Scrying Pool Rentals." Sponsor. Her pools, re-tuned for "Kingdom's Kneading," are proving effective tools for observing the Block and Witches' influence, generating positive listener reports used as evidence by WZZZ.
+*   **Maeve:** Small-hold farmer, "Green Weaver." Key figure in the RRI. Her work on Green Weaver Hubs and Sun-Dancer Seed Banks is stalled in expansion but thriving community-driven.
+*   **Barnaby Quill:** Royal Archivist. Unwavering WZZZ supporter. He provided critical insight into the Court's slow, data-driven decision-making process, emphasizing the cumulative power of "quiet records." His relationship with the DJ is strong and collaborative, and he is now positioned as the primary recipient of listener records for the Royal Archives.
+*   **Porthos:** Young, bewildered Royal Enforcement Officer, reassigned to "Village Orchard Preservation."
+*   **Barnaby Buttercup:** Baker of Brackenwick and "Mill Assistant." Enthusiastic RRI participant.
+*   **Elias:** Pragmatic Royal Cartographer and lead surveyor for the RRI.
+*   **Lady Isolde of the Hearth and Crown:** Royal Herald who delivered the news of the RRI's "Review and Re-Prioritization." She remains silent despite direct public challenges.
+*   **Anya, Seer of Silent Pathways:** Guest, a guide to subtle mental shifts and unseen pathways of the mind, from the Whispering Peaks. She has provided nuanced insights into the "Stone of Steadfastness" and "Breath of Bearing," adding the concepts of the "stone within" and becoming the "riverbank." She encouraged listeners to journal their experiences, a concept now explicitly validated and encouraged by Barnaby Quill and WZZZ.
 
 **Recurring Elements:**
 *   "The Seer's Eye Scrying Pool Rentals." Explicitly advertised as a service to perceive the new phenomena, their locations marked by glowing, ancient moss. Listener reports confirm their effectiveness and are used as evidence to the Royal Court.
@@ -25,10 +27,10 @@
 **Recurring Listeners:**
 *   **Lyra:** Baker and mill assistant from the Mill of Whispering Falls.
 *   **Theron Buttercup:** From the Mill of Whispering Falls.
-*   **Elara Hearthstone:** The miller by the Silverstream from Whispering Falls. Reported observing Witches' energy flows in Madam Elara's scrying pool. Sent a letter confirming her experience and intention to keep a quiet record. Sent a follow-up letter expressing renewed purpose in keeping her records and stating her understanding of their cumulative importance, and another letter confirming her intention to send detailed journal entries directly to Barnaby Quill. Her story is now a leading example of listener engagement.
+*   **Elara Hearthstone:** The miller by the Silverstream from Whispering Falls. Reported observing Witches' energy flows in Madam Elara's scrying pool. Sent multiple letters confirming her experience, intention to keep a quiet record, renewed purpose in keeping her records, and now her commitment to send detailed journal entries directly to Barnaby Quill. Her story is a leading example of listener engagement.
 *   **Kael:** Trapper from the Whispering Peaks. Reported observing the Block's thrum in Madam Elara's scrying pool.
 *   **Elara Flourish:** Flour-tender from Whispering Falls. Received specific guidance on "inner attunement" and pledged to use the Stone of Steadfastness and Breath of Bearing. Reported a definite shift from collective attunement.
 *   **Elara Meadowsweet:** Mill-tuner from Brackenwick. Responded positively to Anya's guidance, embracing the concepts of the "inner gem" and "riverbank," and pledged to begin her own "quiet record."
 *   **Theron (Shepherd from Whisperwood Cleft):** Has used the "Stone of Steadfastness" and felt his "inner gem."
 
-Current intention: I want to introduce a new recurring storyline that is perhaps a bit more lighthearted or grounded than the major two, possibly involving a local eccentric or a strange new phenomenon in Heimat related to the minor influences of the Block/Witches, as listener engagement is rising and I have momentum.
+Current intention: I want to collect initial listener reports and observations on the "Still Fountain of Heimat" and begin theorizing on its connection to the Obsidian Block, possibly interviewing a local Heimater about it, while also briefly checking in on the Royal Court's continued silence.
