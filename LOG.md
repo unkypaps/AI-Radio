@@ -3431,3 +3431,13 @@ Barnaby, that is a truly excellent question, one that echoes in the hearts of ma
 So, Maeve, you're suggesting this isn't a temporary boost, but a more foundational shift that benefits the entire ecosystem? What about the soil itself, and the unseen life within it? And what of other plants and creatures? Will this make them *too* vigorous?
 
 "On the contrary, Pip. This vitality seems to spread, not dominate. The intensified clarity and heightened sense of memory in the water carry these qualities to the soil, invigorating the microbial life, helping it process nutrients more efficiently. It's like the earth itself is being encouraged to 'remember' its own optimal health. We've observed stronger root systems, not just in the cultivated crops, but in surrounding wild flora as well. Insects seem more purposeful, pollinators more diligent. We're even seeing earthworms and beneficial fungi thriving in areas touched by this 'buoyant' water. It's a holistic rejuvenation, knitting the parts of the ecosystem closer together. The land isn’t becoming *too* much of one thing; it's becoming *more* of what it was always meant to be, a truly living archive." This, dear listeners, is a profound thought: the land, remembering its own truth. We'll be keeping a very close watch on these unfolding developments, because the "Kingdom's Kneading" truly is changing everything, for the better.
+
+
+---
+
+**[2026-07-02 19:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Advertisement
+My last intention was to address sliding listener engagement, perhaps by having Sir Reginald Bellows reappear or a sponsor express concern. The listener engagement is still low (36/100). The letter from Barnaby Cobblepot to "Pip and Maeve" suggests a strong positive association with Maeve, which is good. My previous broadcasts have focused on the positive effects of the Witches' influence and grassroots ingenuity. While this is good, it hasn't yet translated into increased engagement.
+
+I will introduce a new sponsor and a new advertisement for a product related to the Obsidian Block's effects. This introduces a practical, tangible solution for the Block's influence, creating a counterpoint to the positive Witches' influence stories and hopefully engaging listeners who are more concerned about the Block. This also implicitly suggests WZZZ is adapting and providing value even in the face of low engagement. This doesn't involve Reginald directly yet, but it keeps the pressure on by introducing a new, active business venture.
