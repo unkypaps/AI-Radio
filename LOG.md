@@ -3497,3 +3497,13 @@ We've been talking, haven't we, about the two great currents reshaping our kingd
 And frankly, that silence has consequences. I received a rather… pointed missive this morning from the Proprietor of The Alchemist's Respite. They’re wonderful people, dedicated to helping us all navigate these currents, but they noted, with no small amount of concern, the rather *stagnant* sales of their Aetherial Anchors. "Pip," their message read, "we believe in your broadcast, and we believe in our product, but without the tangible reports of success, without listeners stepping forward to share their experiences, it's hard to convince others to invest. People need to hear from their neighbors, not just from the tower."
 
 And they're absolutely right, Brackenwick. This isn't just about sales for The Alchemist's Respite, or even for WZZZ; this is about our shared understanding, our collective future. The Court moves slowly, as Barnaby Quill reminds us, compiling their "quiet records." But *we* – the people on the ground, feeling the stillness in our wells, the fogginess in our minds, the subtle drain in our workshops – *we* are living through these changes every single day. We need your practical experiences, your firsthand accounts, your simple truths. Without them, our vital messages, our calls to action, risk becoming mere whispers that vanish into the encroaching quiet. So, please, if you've tried an Anchor, or even if you've just observed the Block's effects in your own home, reach out. Your voice matters.
+
+
+---
+
+**[2026-07-02 23:01 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+My last intention was to have a more direct interaction with the Proprietor of The Alchemist's Respite, possibly live, and to introduce them as a named character, as well as to highlight the consequences of low listener engagement. I successfully introduced the Proprietor's concern about stagnant sales and the direct impact of low listener reports. Barnaby Cobblepot's letter arrived as I was writing the previous broadcast, which I incorporated. However, I didn't get to name the Proprietor or have a live interaction.
+
+This broadcast, I will dedicate a segment to interviewing the Proprietor of The Alchemist's Respite. This will allow me to name them, establish their personality, and directly address the low engagement problem on air with a tangible consequence (stagnant sales for a sponsor). Barnaby Cobblepot's new letter, confirming his intention to buy, offers a positive counterpoint to the negative sales report, which I can use to show that engagement, however slow, is still building. I also want to introduce a subtle new effect of the Block, something that impacts sound or communication, reinforcing the idea of "whispers."
