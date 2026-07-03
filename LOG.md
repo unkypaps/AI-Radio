@@ -3541,3 +3541,13 @@ We were just speaking with Master Phileas, the dedicated Proprietor of The Alche
 That’s a chilling thought, Master Phileas, and it echoes precisely what I’ve been feeling here at WZZZ. The profound silence from our listeners, the lack of reports that should be flooding in, the dwindling numbers of you out there making your voices heard – it’s not just apathy, is it? It’s this subtle, insidious dampening. The Obsidian Block doesn’t just still water or polish memories; it muddies our ability to connect, to communicate, to share the very knowledge that forms our kingdom's living archive. It’s actively working to silence us, making our calls for help feel like whispers, and your responses, Master Phileas, like lost echoes.
 
 But here’s where we find our counterpoint, Brackenwick. If the Block introduces a dampening, a dissipation of understanding, then the Witches’ influence, with its peculiar clarity, its heightened sense of memory, and its vital energy, must surely offer a way to cut through that fog! We’ve heard of how it brings forgotten crops to bloom, how it makes ley lines glow with vibrant life, how it sharpens perception. Could this clarity not also extend to our minds, making our thoughts brighter, our words more potent, our understanding sharper? So, I implore you, dear listeners, beyond reporting on Anchors, send us your observations on how the Witches' influence impacts your clarity of thought, your ability to communicate complex ideas, or simply to grasp new truths. Let's make our collective voice a beacon of vibrant understanding, cutting through the Obsidian Block’s insidious silence.
+
+
+---
+
+**[2026-07-03 02:02 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Listener Letters/Omens
+My last intention was to follow up on the call for listener reports regarding the Witches' influence on clarity and communication, perhaps by interviewing Maeve or another local expert on how the Witches' energy could specifically counter the Block's communication dampening. I did issue a call for those reports at the end of the last broadcast.
+
+This segment will begin by acknowledging the letter from Barnaby Cobblepot, which arrived just before the last broadcast and specifically addresses the communication dampening. This is a perfect segue into reinforcing the Block's new effect and the dire state of listener engagement. I will then use this as a spring-board to further emphasize the Witches' clarity as a potential counter-measure, leveraging the idea that even *thinking* about their influence might help. I'll frame Barnaby's letter as a small act of resistance against the dampening. The very low engagement means I need to make the peril of non-communication very clear.
