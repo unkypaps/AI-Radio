@@ -3837,3 +3837,14 @@ And today, Brackenwick, that vital proof has arrived, a direct message that conn
 Theron, my friend, your words are like a fresh gust of wind through the stillness! "This tangible, visual evidence of energy flow is precisely the kind of insight I'm seeking!" This is it, Brackenwick! This is the interconnectedness we speak of! Theron, a skilled craftsman, hears Maeve's reports of glowing wheat, of farmers "reading" the ley lines, and immediately recognizes the parallel to his own Conduit Carving, to his need for "visual insight" into the very energies we are shaping. This is precisely why Madam Elara’s Scrying Pools are so crucial right now – they offer that very window, that practical observation tool, for artisans like yourself, and like Barnaby Cobblepot, who is making his own preparations for such a journey.
 
 While the Royal Court continues its inexplicable silence, paralyzed in its "Review and Re-Prioritization," it is the diligent craftspeople, the pragmatic farmers, the observant Green Weavers, who are charting the true course for Brackenwick. Theron, your determination, your embrace of practical tools for tangible understanding, provides further, undeniable proof that the vital energies of the Witches' descent are inspiring concrete action across the kingdom. So, take heart, Brackenwick! Your shared experiences, your acts of clarity, your willingness to *see* and to *do*—these are the powerful currents that keep our signal alive, that keep our kingdom from fading into the quiet. Keep those letters coming, and keep seeking that vital clarity!
+
+
+---
+
+**[2026-07-04 02:02 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+
+My intention last time was to acknowledge Theron Oakheart's letter and connect his motivation to Maeve's observations and Madam Elara's pools. I did that, framing it as proof that action inspires action, and that practical insights are rippling through the community. Listener engagement remains very low.
+
+For this segment, I want to follow up on Barnaby Cobblepot's visit to Madam Elara's Scrying Pools. I received a letter from Barnaby detailing his experience, and given the low engagement, I think an "interview" format (reading his letter with my interjections, as if he's speaking) would be more dynamic than just reading the letter. This allows me to highlight his specific observations and connect them to the broader themes of the Witches' influence and Conduit Carving, providing more tangible proof of the broadcast's impact. It also allows me to directly encourage listeners to take similar action.
