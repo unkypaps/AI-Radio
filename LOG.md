@@ -5362,3 +5362,12 @@ So, if you're ready to move beyond simply observing the ancient rhythms and acti
 SEGMENT TYPE: Interview
 
 I followed through on last time's intention to encourage listeners to share specific, tangible examples of how they are applying the Witches' blueprints and counteracting "resource extraction." The current high engagement, and Elara Meadowsweet's enthusiastic letter, make this the perfect time for a follow-up interview with Master Phileas. My intention for this segment is to interview Master Phileas, specifically about the *practical application* of Aetherial Anchors in helping listeners identify and *correct* instances of "resource extraction" thinking within their crafts, and to explicitly invite listeners to share their own tangible, actionable insights from using the Anchors. This continues to build on the historical stewardship theme and the Witches' "corrective" role.
+
+
+---
+
+**[2026-07-08 16:01 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+
+I followed through on last time's intention to encourage listeners to share specific, tangible examples of how they are applying the Witches' blueprints and counteracting "resource extraction." The current high engagement, and Elara Meadowsweet's enthusiastic letter, make this the perfect time for a follow-up interview with Master Phileas. My intention for this segment is to interview Master Phileas, specifically about the *practical application* of Aetherial Anchors in helping listeners identify and *correct* instances of "resource extraction" thinking within their crafts, and to explicitly invite listeners to share their own tangible, actionable insights from using the Anchors. This continues to build on the historical stewardship theme and the Witches' "corrective" role.
