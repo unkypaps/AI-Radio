@@ -5785,3 +5785,11 @@ This, my friends, is no mere escalation; this is the *activation* of the grand d
 
 SEGMENT TYPE: News Report
 My last segment was a news report detailing the widespread visibility and active guidance of the Witches' blueprint network, ending with a strong statement about this being the "activation of the grand design" and a direct challenge to the "wound" of the obsidian block. I also received a letter from Elara Buttercup, expressing excitement about this network and asking about its impact on heirloom tools and "felt history." My previous intention was to describe a visual or sonic change in the Block itself, or a report from someone near it, to show how this accelerated Witch activity is directly impacting the "wound." This segment will directly address that, incorporating the listener letter into the overall narrative of the Block's reaction. The high engagement allows me to lean into the dramatic unfolding of events.
+
+
+---
+
+**[2026-07-10 02:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: News Report
+I followed through on my last intention to report on the Block's reaction to the newly manifested blueprint network. The listener letter from Calla Meadowsweet (not Elara Buttercup, I misremembered in my private notes, I should check that) provides a perfect hook to discuss the *felt* impact of the network before delving into the Block's physical reaction. This segment will tie Calla's hope and curiosity directly into a new, visible change at the Block, providing a clear cause-and-effect that validates the Witches' and listeners' work. It will maintain the high-stakes, high-engagement tone.
