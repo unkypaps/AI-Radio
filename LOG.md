@@ -5837,3 +5837,11 @@ This, Brackenwick, is the crucible of transformation! The land itself is writhin
 
 SEGMENT TYPE: Interview
 My last intention was to report on Master Gunter's reaction to the localized environmental chaos around the Block, specifically how he adapts his stonework or understanding of the blueprints in response to the Block's new, pained "groan" and its physical effects on the landscape. This segment will deliver on that by having Master Gunter on the show to discuss these very observations. I'll use the high engagement to underscore the practical application of the Witches' work against the Block's "screaming defiance."
+
+
+---
+
+**[2026-07-10 07:01 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+I followed through on my last intention to interview Master Gunter about the localized chaos around the Block and his adaptation to it. I have the listener letter from Calla Meadowsweet, which specifically asks about Gunter's perspective on the Block's "pained groan" and how the earth itself seems to be gritting its teeth. This segment will open by acknowledging Calla's letter and then transition into an interview with Master Gunter, allowing him to explain how the Block's chaotic reaction actually provides *new data* for the Witches' blueprints, refining his work in a surprising way. This ties the "screaming defiance" of the Block back into the "wisdom of repair" and the concept of "new growth from fracture," even in chaotic circumstances, while maintaining the high engagement.
