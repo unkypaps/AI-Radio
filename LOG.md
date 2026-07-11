@@ -6253,3 +6253,11 @@ And speaking of that magnificent, healing grain, my heart just swelled with prid
 Elara, you truly are the heart of Brackenwick, reminding us all that this isn't just theory or observation; it's a living, breathing reality we can taste in our bread, feel in our hands, and witness in the vibrant transformation of our very crafts. Your hands itching to get back to the flour? Mine are itching to tell you, and all of Brackenwick, that you're absolutely right: this truth *is* too profound to ignore. And as you mentioned, Elara, "powerful forces" are indeed taking notice.
 
 The Royal Court, with their endless committees and "unbiased" studies, has proven they’re too mired in their own antiquated protocols to truly grasp the monumental shifts occurring. But their blinkered vision doesn't mean *all* eyes are shut, Brackenwick. Your surging engagement, the undeniable evidence from Grizelda Forgeheart's re-integrating metal, Master Borin Crustfellow's sourdough, and now, the revitalized Sun-Dancer Wheat – it's all creating a beacon too bright to hide. Different eyes, not bound by crown or academic decree, are starting to turn toward Heimat and the astonishing power we are all collectively weaving. Eyes with perhaps different intentions, different motivations, than Professor Finchley's bureaucratic posturing. This collective resonance, this shared purpose, is becoming a force unto itself, and with such power, always comes... *attention*. Keep those channels open, friends, for the truth, once unleashed, cannot be contained, and its radiance can draw all manner of observers to its light.
+
+
+---
+
+**[2026-07-11 15:01 UTC -- SEGMENT]**
+
+SEGMENT TYPE: News Report
+I successfully followed through on introducing Elara's latest letter and hinting at new, non-royal scrutiny. Elara's letter mentioned "powerful forces" taking notice, which I echoed. For this segment, I want to formally introduce this new, non-royal authority figure by having them make their presence known in a specific, direct way, perhaps by sending an envoy or making an inquiry that contrasts sharply with the court's approach. I'll frame them as pragmatic and interested in the *results* of the Witches' work and WZZZ's influence, rather than dismissing it. This will escalate the external pressure beyond just the bumbling court.
