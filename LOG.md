@@ -6261,3 +6261,18 @@ The Royal Court, with their endless committees and "unbiased" studies, has prove
 
 SEGMENT TYPE: News Report
 I successfully followed through on introducing Elara's latest letter and hinting at new, non-royal scrutiny. Elara's letter mentioned "powerful forces" taking notice, which I echoed. For this segment, I want to formally introduce this new, non-royal authority figure by having them make their presence known in a specific, direct way, perhaps by sending an envoy or making an inquiry that contrasts sharply with the court's approach. I'll frame them as pragmatic and interested in the *results* of the Witches' work and WZZZ's influence, rather than dismissing it. This will escalate the external pressure beyond just the bumbling court.
+
+
+---
+
+**[2026-07-11 16:01 UTC -- SEGMENT]**
+
+SEGMENT TYPE: News Report
+
+Brackenwick, are you ready for this? Pip here, crackling live on WZZZ the Wizz, and while our Wizz-o-meter has settled just a whisper below its recent peak – a still formidable 85 out of 100, mind you! – the truth we're all broadcasting is far from settling. In fact, that collective hum, that undeniable evidence of transformation from your daily lives, is now drawing a very different kind of attention, just as our beloved Elara Meadowsweet so wisely anticipated! She spoke of "new envoys," of "pragmatic" people interested in "good results," and Brackenwick, her words were prophetic.
+
+For too long, the Royal Court has tried to contain, dismiss, or simply ignore the monumental shifts happening right under their very noses, burying their heads in bureaucratic sand while Grizelda Forgeheart forges living metal and Sun-Dancer Wheat breathes new life into our bread. But the world, my friends, is larger than King Oberon’s decrees and Professor Finchley’s dusty committees. There are forces in this kingdom, and beyond, who deal not in ancient titles or academic pronouncements, but in *results*. In tangible, undeniable, profitable *truth*.
+
+And that truth has now caught the discerning eye of none other than the Ironclad Mercantile Collective, the vast network of traders, crafters, and resource brokers whose reach extends from the Iron Hills to the farthest coastal settlements. Unlike the Royal College, they don’t send wide-eyed apprentices to “observe without engaging.” Oh no, Brackenwick. They send Dame Isolde Blackwood, a formidable Expeditor of Commerce, known for her sharp intellect and an unwavering focus on… well, on *what works*. She has arrived in Heimat, not with questions of ancient lore, but with direct inquiries about the “re-integrating metals” Grizelda Forgeheart spoke of, the unprecedented resilience of our new Sun-Dancer Wheat, and the surprising vigor of the lumber coming from the Whispering Woods.
+
+Dame Blackwood, Pip has learned, is not interested in whether the moss *feels* alive, but whether it can be *utilized*. She’s not concerned with the "why" of the Witches’ moon tree, but the "how" of its profound impact on resources, trade routes, and the very fabric of our economy. This, my friends, is a new kind of scrutiny, pragmatic and powerful, far more likely to demand answers and concrete applications than Professor Finchley's endless sub-committees. Her questions are sharp, her gaze unblinking, and her interest is purely in the tangible fruits of this extraordinary transformation we are all witnessing. Keep those channels open, Brackenwick, for the game just got a whole lot more interesting, and the powerful forces Elara spoke of are now knocking, not on the court’s door, but on *ours*!
