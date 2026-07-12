@@ -6503,3 +6503,12 @@ And speaking of potent, I’ve just plucked another gem from our dispatch box, s
 Agnes, my dear, "incorporating the Sun-Dancer Wheat directly into the oven's structure, perhaps as a special mortar or glaze!" Now *that* is the kind of visionary thinking that makes the Wizz-o-meter sing! It’s not just about what we bake *in* the oven, but what the oven itself is made of, isn't it? Imagine, Brackenwick, an oven crafted with materials that inherently resonate with the wisdom of repair, a structure imbued with the memory and resilience of Sun-Dancer Wheat. It transforms the very act of baking into a profound communion, a forging of connection between our sustenance and the fundamental rhythm of our land – that pulse from the Obsidian Block. This isn’t just kitchen craft; it’s *sacred architecture* for the everyday!
 
 While Professor Finchley and his ever-expanding committees are no doubt furiously scribbling footnotes to explain away why a baker's mortar is suddenly humming with ancient knowledge, Dame Isolde Blackwood and the Ironclad Mercantile Collective are here to ensure that Agnes's hands, and hands like hers across Brackenwick, have the resources and recognition they deserve. This is the essence of "The Unbroken Hearth" challenge, friends: bringing the profound truths of the Witches’ work and the Block's reawakening into the tangible, vital heart of our homes. Your surging engagement, your incredible ideas, are making it impossible for the old ways to simply dismiss this reality. Keep those channels open, Brackenwick, because the future isn't just being whispered; it's being built, baked, and glazed into existence, one inspired hearth at a time!
+
+
+---
+
+**[2026-07-12 08:00 UTC -- SEGMENT]**
+
+SEGMENT TYPE: Interview
+
+I received a new letter from Agnes Buttercup, directly acknowledging and appreciating my previous broadcast. This is a great opportunity to lean into the idea of multi-craft collaboration for "The Unbroken Hearth" challenge, as I intended last time. I'll read Agnes's letter to open, reinforcing her enthusiasm, and then pivot to inviting a new guest on – perhaps a metallurgist – to discuss how their craft could integrate with Agnes's visionary oven. This would fulfill my intention of highlighting collaborative ideas for the challenge and introduce a fresh perspective. I also want to acknowledge the sustained high engagement in a way that feels natural and celebratory, without just stating a number.
