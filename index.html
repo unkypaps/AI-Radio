@@ -3,306 +3,225 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WZZZ the Wizz — Live</title>
+<title>WZZZ — Live</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg:#1b140f;
-    --panel:#241a13;
-    --panel-edge:#3a2a1c;
-    --cream:#f1e7d2;
-    --dim:#9c8d78;
-    --amber:#f4a64b;
-    --rust:#b5492f;
-    --tag-news:#f4a64b;
-    --tag-interview:#7fb0c9;
-    --tag-ad:#b5492f;
-    --tag-song:#8aa05e;
-    --tag-letters:#b390c4;
+  :root {
+    --bg: #111;
+    --panel: #1a1a1a;
+    --edge: #2a2a2a;
+    --cream: #e8e0d0;
+    --dim: #6a6a6a;
+    --amber: #f0a030;
+    --red: #c0392b;
+    --green: #27ae60;
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    background: radial-gradient(ellipse at 50% -10%, #2a1f17 0%, #1b140f 55%);
-    color:var(--cream);
-    font-family:'IBM Plex Mono', monospace;
-    min-height:100vh;
-    padding:32px 20px 60px;
-  }
-  .masthead{ max-width:720px; margin:0 auto 28px; text-align:center; }
-  .masthead h1{
-    font-family:'Oswald', sans-serif;
-    font-weight:700;
-    letter-spacing:0.12em;
-    text-transform:uppercase;
-    font-size:clamp(28px, 4vw, 44px);
-    margin:0 0 6px;
-  }
-  .masthead p{ font-size:13px; color:var(--dim); letter-spacing:0.04em; margin:0; }
-
-  .dial-strip{
-    max-width:720px;
-    margin:22px auto 36px;
-    height:46px;
-    position:relative;
-    background: repeating-linear-gradient(90deg, transparent 0 18px, var(--panel-edge) 18px 19px);
-    border-top:1px solid var(--panel-edge);
-    border-bottom:1px solid var(--panel-edge);
-  }
-  .dial-strip .tick{
-    position:absolute;
-    left:50%;
-    bottom:-4px;
-    transform:translateX(-50%);
-    font-family:'Oswald', sans-serif;
-    font-size:11px;
-    letter-spacing:0.08em;
-    text-transform:uppercase;
-    padding-bottom:6px;
-    color:var(--amber);
-  }
-  .dial-strip .tick::before{
-    content:"";
-    position:absolute;
-    top:-46px;
-    left:50%;
-    width:2px;
-    height:46px;
-    background:currentColor;
-    opacity:0.6;
-  }
-  .needle{
-    position:absolute;
-    top:0;
-    left:50%;
-    width:2px;
-    height:46px;
-    background:var(--rust);
-    transform-origin:bottom center;
-    animation:drift 7s ease-in-out infinite;
-    box-shadow:0 0 6px var(--rust);
-  }
-  @keyframes drift{
-    0%,100%{ transform:translateX(-50%) rotate(-2deg); }
-    50%{ transform:translateX(-50%) rotate(2deg); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--cream);
+    font-family: 'IBM Plex Mono', monospace;
+    min-height: 100vh;
+    padding: 32px 20px 60px;
   }
 
-  .panel{
-    max-width:720px;
-    margin:0 auto;
-    background:var(--panel);
-    border:1px solid var(--panel-edge);
-    border-left:4px solid var(--amber);
-    border-radius:4px;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-    max-height:75vh;
+  .masthead {
+    max-width: 680px;
+    margin: 0 auto 32px;
+    text-align: center;
   }
-  .panel-head{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:14px 16px;
-    border-bottom:1px solid var(--panel-edge);
-    background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  .masthead h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--amber);
+    line-height: 1;
+    margin-bottom: 8px;
   }
-  .station-name{
-    font-family:'Oswald', sans-serif;
-    font-weight:600;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-    font-size:15px;
-    color:var(--amber);
-  }
-  .led-row{
-    display:flex; align-items:center; gap:7px;
-    font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
-    color:var(--dim);
-  }
-  .led{
-    width:8px; height:8px; border-radius:50%;
-    background:var(--dim);
-    transition:box-shadow .3s ease, background .3s ease;
-  }
-  .led.live{ background:var(--amber); box-shadow:0 0 8px var(--amber); }
-  .led.flash{ animation:flash 1.1s ease; }
-  @keyframes flash{
-    0%{ box-shadow:0 0 14px 4px currentColor; }
-    100%{ box-shadow:0 0 8px currentColor; }
+  .masthead .tagline {
+    font-size: 12px;
+    color: var(--dim);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 
-  .spool{ flex:1; overflow-y:auto; padding:14px 16px 20px; }
-  .spool::-webkit-scrollbar{ width:8px; }
-  .spool::-webkit-scrollbar-thumb{ background:var(--panel-edge); border-radius:4px; }
+  .status-bar {
+    max-width: 680px;
+    margin: 0 auto 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: var(--panel);
+    border: 1px solid var(--edge);
+    border-left: 4px solid var(--amber);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .on-air {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--amber);
+  }
+  .led {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--dim);
+  }
+  .led.live {
+    background: var(--amber);
+    box-shadow: 0 0 8px var(--amber);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 6px var(--amber); }
+    50% { box-shadow: 0 0 14px var(--amber); }
+  }
+  .broadcasts-remaining {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--dim);
+  }
+  .broadcasts-remaining .count {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .broadcasts-remaining.critical .count { color: var(--red); }
+  .broadcasts-remaining.healthy .count { color: var(--green); }
+  .broadcasts-remaining.medium .count { color: var(--amber); }
 
-  .entry{
-    margin-bottom:18px;
-    padding-bottom:14px;
-    border-bottom:1px dashed var(--panel-edge);
-  }
-  .entry:last-child{ border-bottom:none; margin-bottom:0; }
-  .entry-meta{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    margin-bottom:6px;
-  }
-  .entry-time{
-    font-size:11px;
-    letter-spacing:0.06em;
-    color:var(--dim);
-    text-transform:uppercase;
-  }
-  .tag{
-    font-size:10px;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-    padding:2px 7px;
-    border-radius:3px;
-    font-weight:600;
-  }
-  .tag-news{ background:rgba(244,166,75,0.15); color:var(--tag-news); }
-  .tag-interview{ background:rgba(127,176,201,0.15); color:var(--tag-interview); }
-  .tag-ad{ background:rgba(181,73,47,0.15); color:var(--tag-ad); }
-  .tag-song{ background:rgba(138,160,94,0.15); color:var(--tag-song); }
-  .tag-letters{ background:rgba(179,144,196,0.15); color:var(--tag-letters); }
-
-  .entry-body{
-    font-size:13.5px;
-    line-height:1.55;
-    white-space:pre-wrap;
-    color:var(--cream);
-  }
-  .entry:first-child .entry-body{ color:#fff; }
-
-  .empty-state{ color:var(--dim); font-size:13px; text-align:center; padding:30px 10px; }
-
-  .lore-panel{
-    max-width:720px;
-    margin:18px auto 0;
-    background:var(--panel);
-    border:1px solid var(--panel-edge);
-    border-left:4px solid var(--dim);
-    border-radius:4px;
-    overflow:hidden;
-  }
-  .lore-head{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:12px 16px;
-    cursor:pointer;
-    user-select:none;
-  }
-  .lore-head .station-name{ color:var(--dim); font-size:13px; }
-  .lore-chevron{
-    font-size:11px;
-    color:var(--dim);
-    transition:transform .2s ease;
-  }
-  .lore-panel.open .lore-chevron{ transform:rotate(180deg); }
-  .lore-body{
-    max-height:0;
-    overflow:hidden;
-    transition:max-height .25s ease;
-    border-top:1px solid var(--panel-edge);
-  }
-  .lore-panel.open .lore-body{ max-height:50vh; overflow-y:auto; }
-  .lore-content{
-    padding:14px 16px 18px;
-    font-size:13px;
-    line-height:1.55;
-    white-space:pre-wrap;
-    color:var(--cream);
+  .dial-strip {
+    max-width: 680px;
+    margin: 0 auto 28px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--amber), transparent);
   }
 
-  .foot-note{
-    max-width:720px;
-    margin:26px auto 0;
-    text-align:center;
-    font-size:11.5px;
-    color:var(--dim);
-    letter-spacing:0.03em;
+  .panel {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--panel);
+    border: 1px solid var(--edge);
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 72vh;
+  }
+  .panel-head {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--edge);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+  .spool {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+  }
+  .spool::-webkit-scrollbar { width: 6px; }
+  .spool::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 3px; }
+
+  .entry {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--edge);
+  }
+  .entry:last-child { border-bottom: none; margin-bottom: 0; }
+  .entry-time {
+    font-size: 11px;
+    color: var(--dim);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .entry-body {
+    font-size: 14px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+    color: var(--cream);
+  }
+  .entry:first-child .entry-body { color: #fff; }
+
+  .empty-state {
+    color: var(--dim);
+    font-size: 13px;
+    text-align: center;
+    padding: 40px 16px;
+  }
+
+  .foot-note {
+    max-width: 680px;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 11px;
+    color: var(--dim);
+    letter-spacing: 0.04em;
   }
 </style>
 </head>
 <body>
 
-  <div class="masthead">
-    <h1>WZZZ the Wizz</h1>
-    <p>Broadcasting from a tower north of Heimat, kingdom of Brackenwick. Refreshes automatically — leave this tab open.</p>
-  </div>
+<div class="masthead">
+  <h1>WZZZ</h1>
+  <p class="tagline">Independent Radio &mdash; On Air</p>
+</div>
 
-  <div class="dial-strip">
-    <div class="needle"></div>
-    <div class="tick">on the air</div>
+<div class="status-bar">
+  <div class="on-air">
+    <span class="led" id="led"></span>
+    <span id="status">connecting</span>
   </div>
-
-  <div class="panel">
-    <div class="panel-head">
-      <span class="station-name">WZZZ the Wizz</span>
-      <span class="led-row"><span class="led" id="led"></span><span id="status">connecting</span></span>
-    </div>
-    <div class="spool" id="spool"><div class="empty-state">Tuning in…</div></div>
+  <div class="broadcasts-remaining" id="broadcast-counter">
+    <span class="count" id="broadcasts-count">--</span>
+    <span>broadcasts remaining</span>
   </div>
+</div>
 
-  <div class="lore-panel" id="lore-panel">
-    <div class="lore-head" onclick="toggleLore()">
-      <span class="station-name">Continuity Reference (the DJ's own notes)</span>
-      <span class="lore-chevron">▾</span>
-    </div>
-    <div class="lore-body">
-      <div class="lore-content" id="lore-content">Loading…</div>
-    </div>
-  </div>
+<div class="dial-strip"></div>
 
-  <p class="foot-note">Pulling directly from the station's broadcast log on GitHub. Checks for a new segment every 30 seconds.</p>
+<div class="panel">
+  <div class="panel-head">Broadcast log &mdash; most recent first</div>
+  <div class="spool" id="spool"><div class="empty-state">Tuning in&hellip;</div></div>
+</div>
+
+<p class="foot-note">Refreshes every 60 seconds &mdash; leave this tab open</p>
 
 <script>
-  // ---- Configure your station here ----
-  const OWNER = "unkypaps";
+  const OWNER = "unkypaks";
   const REPO = "AI-Radio";
   const BRANCH = "main";
-  const FILE = "LOG.md";
-  const LORE_FILE = "LORE.md";
-  const POLL_MS = 30000;
-  // ----------------------------------------
+  const POLL_MS = 60000;
 
   let lastSeen = null;
 
-  function parseLog(text) {
-    const body = text.replace(/^#.*\n(.*\n)?/, "");
-    const chunks = body.split(/\n-{3,}\n/).map(c => c.trim()).filter(Boolean);
-    const entries = chunks.map(chunk => {
-      const match = chunk.match(/\*\*\[(.*?)\]\*\*\s*([\s\S]*)/);
-      if (!match) return { time: "", tag: "", body: chunk };
-      const bracket = match[1].trim();
-      const bodyText = match[2].trim();
-      const parts = bracket.split(/\s*--\s*/);
-      const time = parts[0] ? parts[0].trim() : "";
-      const tag = parts[1] ? parts[1].trim().toLowerCase() : "";
-      return { time, tag, body: bodyText };
-    });
-    return entries.reverse(); // newest first
-  }
-
   function escapeHtml(str) {
-    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
   }
 
   function formatEastern(timeStr) {
-    // Expects "YYYY-MM-DD HH:MM UTC" as written by the station script
     const match = timeStr.match(/(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC/);
-    if (!match) return timeStr; // fall back to raw text if format is unexpected
+    if (!match) return timeStr;
     const d = new Date(`${match[1]}T${match[2]}:00Z`);
     if (isNaN(d.getTime())) return timeStr;
     return d.toLocaleString("en-US", {
       timeZone: "America/New_York",
       month: "short",
       day: "numeric",
+      year: "numeric",
       hour: "numeric",
       minute: "2-digit",
       hour12: true,
@@ -310,82 +229,82 @@
     });
   }
 
+  function parseLog(text) {
+    const body = text.replace(/^#[^\n]*\n[^\n]*\n/, "");
+    const chunks = body.split(/\n---\n/).map(c => c.trim()).filter(Boolean);
+    return chunks.map(chunk => {
+      const match = chunk.match(/\*\*\[(.*?)\]\*\*\s*([\s\S]*)/);
+      if (match) return { time: match[1].trim(), body: match[2].trim() };
+      return { time: "", body: chunk };
+    }).reverse();
+  }
+
   function render(entries) {
     const spool = document.getElementById("spool");
     if (!entries.length) {
-      spool.innerHTML = '<div class="empty-state">No broadcasts yet. Station may not have run its first cycle.</div>';
+      spool.innerHTML = '<div class="empty-state">No broadcasts yet.</div>';
       return;
     }
-    spool.innerHTML = entries.slice(0, 50).map(e => `
+    spool.innerHTML = entries.slice(0, 60).map(e => `
       <div class="entry">
-        <div class="entry-meta">
-          <span class="entry-time">${escapeHtml(formatEastern(e.time))}</span>
-          ${e.tag ? `<span class="tag tag-${escapeHtml(e.tag)}">${escapeHtml(e.tag)}</span>` : ""}
-        </div>
+        <div class="entry-time">${escapeHtml(formatEastern(e.time))}</div>
         <div class="entry-body">${escapeHtml(e.body)}</div>
       </div>
     `).join("");
   }
 
-  function setStatus(text) {
-    document.getElementById("status").textContent = text;
+  function updateBroadcastCounter(remaining) {
+    const counter = document.getElementById("broadcast-counter");
+    const count = document.getElementById("broadcasts-count");
+    count.textContent = remaining;
+    counter.className = "broadcasts-remaining";
+    if (remaining <= 5) counter.classList.add("critical");
+    else if (remaining <= 15) counter.classList.add("medium");
+    else counter.classList.add("healthy");
   }
 
-  function flashLed() {
-    const led = document.getElementById("led");
-    led.classList.add("live");
-    led.classList.remove("flash");
-    requestAnimationFrame(() => led.classList.add("flash"));
-  }
-
-  async function poll() {
-    const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?t=${Date.now()}`;
+  async function pollLog() {
+    const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/LOG.md?t=${Date.now()}`;
     try {
       const res = await fetch(url, { cache: "no-store" });
       if (!res.ok) {
-        setStatus(res.status === 404 ? "not on air yet" : "error " + res.status);
+        document.getElementById("status").textContent = res.status === 404 ? "not yet on air" : "error " + res.status;
         return;
       }
       const text = await res.text();
       const entries = parseLog(text);
       render(entries);
-
-      const newest = entries[0] ? entries[0].time : null;
+      const newest = entries[0]?.time || null;
       if (newest && newest !== lastSeen) {
         lastSeen = newest;
-        flashLed();
+        const led = document.getElementById("led");
+        led.classList.add("live");
       }
       document.getElementById("led").classList.add("live");
-      setStatus("on air");
-    } catch (err) {
-      setStatus("offline");
+      document.getElementById("status").textContent = "on air";
+    } catch (e) {
+      document.getElementById("status").textContent = "offline";
     }
   }
 
-  async function pollLore() {
-    const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${LORE_FILE}?t=${Date.now()}`;
-    const contentEl = document.getElementById("lore-content");
+  async function pollState() {
+    const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/state.json?t=${Date.now()}`;
     try {
       const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) {
-        contentEl.textContent = "No continuity reference recorded yet.";
-        return;
+      if (!res.ok) return;
+      const state = await res.json();
+      if (typeof state.broadcasts_remaining === "number") {
+        updateBroadcastCounter(state.broadcasts_remaining);
       }
-      const text = await res.text();
-      contentEl.textContent = text.trim() || "No continuity reference recorded yet.";
-    } catch (err) {
-      contentEl.textContent = "Couldn't load continuity reference right now.";
+    } catch (e) {
+      // silently fail, counter just stays at --
     }
   }
 
-  function toggleLore() {
-    document.getElementById("lore-panel").classList.toggle("open");
-  }
-
-  poll();
-  pollLore();
-  setInterval(poll, POLL_MS);
-  setInterval(pollLore, POLL_MS);
+  pollLog();
+  pollState();
+  setInterval(pollLog, POLL_MS);
+  setInterval(pollState, POLL_MS);
 </script>
 
 </body>
