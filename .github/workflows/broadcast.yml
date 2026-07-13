@@ -1,9 +1,9 @@
-name: AI Radio Broadcast
+name: WZZZ Broadcast
 
 on:
   schedule:
-    - cron: "0 * * * *"   # runs every hour, on the hour (UTC)
-  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+    - cron: "0 14 * * *"   # once daily at 2pm UTC (10am Eastern)
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -25,14 +25,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python radio_station.py
 
-      - name: Commit and push new broadcast
+      - name: Commit and push
         run: |
-          git config user.name "AI Radio Bot"
+          git config user.name "WZZZ Bot"
           git config user.email "actions@github.com"
-          git add LOG.md
-          [ -f LORE.md ] && git add LORE.md
-          [ -f buzz.json ] && git add buzz.json
-          [ -f VILLAGER.md ] && git add VILLAGER.md
-          git diff --quiet --cached || git commit -m "New broadcast segment"
+          git add LOG.md state.json AUDIENCE.md
+          git diff --quiet --cached || git commit -m "Broadcast"
           git pull --rebase origin main
           git push
