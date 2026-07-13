@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 # ---- Config ----
-MODEL = "gemini-3-pro-preview"
+MODEL = "gemini-3.1-pro-preview"
 API_KEY = os.environ["GEMINI_API_KEY"]
 
 LOG_FILE = "LOG.md"
