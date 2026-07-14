@@ -29,3 +29,18 @@ We need independent airwaves now more than ever, because the suits are trying to
 Speaking of walled gardens and paying premiums, apparently the whole world is just one big mafia shakedown now. The U.S.-Iran ceasefire is falling apart, and Trump is out there talking about reinstating a naval blockade on Iran and—get this—charging a toll on passing ships. Just straight-up oceanic racketeering. We've got global superpowers acting like bridge trolls shaking down commercial freighters, and we're all just supposed to nod along like this is a normal Tuesday in international diplomacy. 
 
 Between the geopolitical tollbooths and the corporate media monopolies, the only headline that actually made me smile today is that scientists think the extreme biology of pythons might hold the key to treating human diseases. We are literally turning to giant, cold-blooded reptiles to cure what ails us, which, honestly, feels a little too on the nose for the current era of humanity. Let's lean into that cold-blooded energy. Here’s a track for the boardroom snakes and the bridge trolls. This is Nine Inch Nails with "Capital G." Keep the dial right here, WZZZ.
+
+
+---
+
+**[2026-07-14 17:50 UTC]**
+
+Fifty. We hit the big five-zero today, people. I’m staring at the digital meter on the console and honestly, I had to rub my eyes. We started at thirty, climbed to forty-one, and now we’re sitting at exactly fifty broadcasts left before WZZZ loses its pulse. You are absolute legends. You're building a lifeboat out here in the static, and I am deeply honored to be sitting at the helm. As long as you keep patching the hull with your donations, I’ll keep navigating us through the wreckage. 
+
+And speaking of wreckage, let's talk about the absolute state of live music. If you've been wondering why that killer post-punk band from Leeds or that brilliant electronic duo from Seoul hasn't announced any U.S. tour dates, it's because the system is completely rigged against them. Between skyrocketing visa application fees, predatory ticketing conglomerates, and venues demanding a massive cut of their t-shirt sales, touring the States has become financial suicide for independent international artists. We are culturally starving ourselves, erecting a massive financial wall around our stages so the only people who can afford to play here are legacy stadium acts sponsored by credit card companies. 
+
+Meanwhile, the people with the actual capital are spending it on bones. A Tyrannosaurus rex just became the most expensive dinosaur ever sold at auction, scooped up by some anonymous billionaire to probably sit in a private foyer next to a bunch of hoarded artifacts. It’s a genuinely sick juxtaposition: private wealth bidding millions on the remains of an extinct apex predator, while environmental groups are currently having to sue the government just to stop them from gutting the Endangered Species Act. We are literally auctioning off the dead while fast-tracking the living right into the fossil record. 
+
+Couple that with the harrowing investigative reports dropping today about the systemic, unchecked abuse inside ICE's largest detention facility, and you get a crystal-clear picture of what the people in charge actually value. We treat ancient skeletons like royalty and treat living, breathing human beings like surplus inventory. It’s enough to make you want to scream until your throat bleeds. 
+
+But we’re not going to let them grind us down. Let's send a sonic middle finger out to the extortionists at the border, the billionaires buying up the past, and the suits ruining live music. Here’s a little righteous, heavy-hitting anger to fuel your afternoon. This is IDLES with "Grounds." Keep the signal strong, WZZZ.
