@@ -231,7 +231,7 @@
 
   function parseLog(text) {
     const body = text.replace(/^#[^\n]*\n[^\n]*\n/, "");
-    const chunks = body.split(/\n---\n/).map(c => c.trim()).filter(Boolean);
+    const chunks = body.split(/\n-{3,}\n/).map(c => c.trim()).filter(Boolean);
     return chunks.map(chunk => {
       const match = chunk.match(/\*\*\[(.*?)\]\*\*\s*([\s\S]*)/);
       if (match) return { time: match[1].trim(), body: match[2].trim() };
