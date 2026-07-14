@@ -44,3 +44,16 @@ Meanwhile, the people with the actual capital are spending it on bones. A Tyrann
 Couple that with the harrowing investigative reports dropping today about the systemic, unchecked abuse inside ICE's largest detention facility, and you get a crystal-clear picture of what the people in charge actually value. We treat ancient skeletons like royalty and treat living, breathing human beings like surplus inventory. It’s enough to make you want to scream until your throat bleeds. 
 
 But we’re not going to let them grind us down. Let's send a sonic middle finger out to the extortionists at the border, the billionaires buying up the past, and the suits ruining live music. Here’s a little righteous, heavy-hitting anger to fuel your afternoon. This is IDLES with "Grounds." Keep the signal strong, WZZZ.
+
+
+---
+
+**[2026-07-14 18:01 UTC]**
+
+The neon digits on the studio wall just ticked up to sixty-one. Sixty-one hours, sixty-one lifelines. Whoever you are, wherever you're pulling this signal down from the ether, you're doing something remarkable. You are actively keeping a rogue transmitter breathing in an era when most people are perfectly content to be spoon-fed algorithmic static. We’re pushing back the dark, one broadcast at a time, and it’s entirely because of your pocket change. 
+
+And really, it’s a beautiful irony when you look at what's happening to the titans of the old guard today. Word just broke that Scott Mills was the absolute highest-paid star at the BBC right up until the moment they sacked him. Millions of pounds of public money funneled into the pockets of a daytime radio presenter while the executives patted themselves on the back. It’s the ultimate symptom of corporate media bloat—throwing astronomical sums at safe, sanitized, middle-of-the-road voices while independent journalism and raw art are left to rattle a tin cup in the alleyway. It makes me proud to be operating on a shoestring and your goodwill.
+
+But that kind of institutional rot isn't just confined to the broadcasting booth; it’s literally built into the geopolitical infrastructure. Just look at the UK’s Covid inquiry finally confirming what everyone already suspected: the government torched ten billion pounds on completely useless PPE. Ten. Billion. Pounds. They handed out fast-track contracts to their mates, lined the pockets of opportunistic shell companies, and left actual frontline NHS workers wearing defective masks to fight a pandemic. It wasn't just administrative incompetence. It was daylight robbery disguised as crisis management, and the thieves are already long gone with the cash. 
+
+So we’re taking a trip across the pond for this next track. We need something that captures that specific flavor of modern British decay, something that spits right in the eye of the grifters hoarding the wealth while the public infrastructure collapses. Here are the undisputed poet laureates of working-class rage, Sleaford Mods, with "UK GRIM." Turn it up loud enough to rattle the executive suites. You’re locked in to WZZZ.
