@@ -1,26 +1,32 @@
 ## LISTENER A
-I actually burst out laughing when he opened with the "kamikaze moth on a flickering bulb." Buddy, you are in a radio studio, not a post-apocalyptic fallout shelter. The forced drama of the intro is just getting so old. 
+"Grime-caked skylight" and "the void is always waiting." Okay, Batman, relax. We get it, you're broadcasting from the edge of the universe (or just a dusty room in a strip mall). He just can't help himself with these melodramatic, post-apocalyptic intros.
 
-And then, right on cue, he delivers the exact whiplash trauma-dump I was complaining about last time, except somehow it's even more unhinged today. In the span of like two minutes, we went from Medicaid bureaucracy to Jeffrey Epstein to Cambridge plagiarism to drowning migrants to 100 people dying in floods to Jeff Bezos buying a soccer team. It is literally just a doomscrolling feed read aloud by a guy who thinks he's the main character in a resistance movie. 
+The middle of the segment was the exact same Twitter-feed whiplash I complained about last time. Going from the eclipse to Trump in a catering truck, then jumping to Assad in Syria, then a deadly earthquake in Colombia, and finally a random NPR board game? It’s just buzzword soup. "The elites want you exhausted." No, dude, *you* are making me exhausted by reading five completely unrelated breaking news alerts in two minutes and pretending they're a cohesive narrative. 
 
-And to top it all off, we get Radiohead. "Karma Police." Of course. It perfectly fits the "Fight the Man" 90s/00s alt-rock playlist I called out last time. Next week is going to be Muse or Green Day, I'm calling it now. 
+But... I will give him credit where it's due. I complained last time about the relentless doom, and today he actually threw in a genuinely good story about the midwife driving across maternity deserts. That was real, grounded, and actually meant something. 
 
-I’m completely exhausted by his relentless doom and manufactured angst. He didn't even try to throw in a piece of good news this time like the vaccine story from before. Just pure, unfiltered misery and pretentious lecturing. My wallet stays closed.
+And he played Alabama Shakes instead of Muse or Green Day! I'll admit I was wrong on my prediction. "Hold On" is a little painfully on-the-nose for the theme of the broadcast, but it's a fantastic song. 
+
+I'll throw him a dollar this time. Just some positive reinforcement for including an uplifting story and picking a slightly better era of rock, even if he still talks like he's the last DJ left alive in the wasteland.
 
 ## LISTENER B
-I have to completely agree with the other listener—I was rolling my eyes so hard at the "kamikaze moth" intro that they almost got stuck. "Nothing in this bunker is permanent"? Come on, man. You’re sitting in an indie radio booth in 2024, not broadcasting from the ruins of a nuclear winter. The forced melodrama is honestly starting to feel like a Saturday Night Live sketch of an underground DJ. 
+I literally laughed out loud when I read the other listener's "Batman, relax" comment, because that is exactly what I was thinking. "The void is always waiting." Come on, dude. It's a Tuesday morning, you're not guarding Gotham City. The forced edgy bunker persona is so embarrassing at this point. 
 
-And once again, my complaints from yesterday stand. It’s just verbal doomscrolling. How do you transition from disabled Americans losing Medicaid to Jeffrey Epstein, to a plagiarism scandal in the UK, to 230 migrants in a boat, to floods in India, to a Ukrainian drone strike, and finally to Jeff Bezos buying a soccer team? It is pure, uncut whiplash. There is zero nuance or deep diving into any of these issues; he's just reading the most depressing Twitter headlines of the morning to prove how awful the world is. 
+The news segment was another exhausting game of headline bingo. We bounced from eclipse glasses to Trump in a catering truck, to Assad, to an earthquake, to an NPR board game. It's still just verbal whiplash, frantically reading off his Twitter feed. 
 
-Then he caps it off with Radiohead’s "Karma Police." Don't get me wrong, I love the song, but wrapping up a rant about billionaires and the elite with literally the most obvious "stick it to the man/you'll get yours" track of the 90s just proves my point from yesterday. His playlist is painfully predictable. 
+That said, I have to give him a tiny bit of credit today. The story about the midwife driving across maternity deserts was genuinely moving. After all my complaints about his relentless doomscrolling and misery-dumping, it was actually refreshing to hear about someone doing something good in the world. It felt like real, human radio for about two minutes. 
 
-I'm exhausted by the relentless misery dumped on me without any real context. If he wants to play doomsday bunker, he can do it without my cash.
+Then, predictably, he wraps it up with "Hold On" by Alabama Shakes. A great song, sure, but once again, the absolute most literal, on-the-nose track you could possibly pick for a story about "holding on." The guy has zero subtlety and his playlists sound like they were generated by an algorithm matching keywords. 
+
+I'll toss him a buck just because the midwife story didn't make me want to walk into traffic, but he really needs to drop the apocalyptic poet act.
 
 ## LISTENER C
-The other listeners absolutely nailed it. I was laughing reading their notes because that "kamikaze moth" and "flickering bulb" intro had me rolling my eyes so hard I almost gave myself a headache. "Nothing in this bunker is permanent." Give me a break, buddy! You're sitting in a climate-controlled radio studio somewhere in America, not broadcasting the resistance from a post-apocalyptic fallout shelter. It is so melodramatic I can barely stand it. 
+I am so glad the other listeners are on the exact same page as me. "Batman, relax" is the perfect way to describe this guy. And by the way, last week he was supposedly broadcasting from a "bunker" with a flickering bulb. This week he's staring up through a "grime-caked skylight." Which is it, buddy? Bunkers don't usually have skylights. He needs a script supervisor to keep his own melodramatic lore straight. 
 
-And here we go again with the intellectual whiplash. What on earth do Medicaid rules for disabled Americans have to do with a plagiarizing Cambridge professor or Jeff Bezos buying a soccer team? He just scrolls through the grim news of the day—floods in India, drone strikes, 230 migrants on a boat—and mashes them all together in a blender so he can yell about "the elite." Just like last week, he's using real, horrible human tragedies (drowning people, Epstein victims) as cheap props for his little college-freshman philosophy hour. It's still gross. 
+And right on cue, here comes the news-blender. Trump in a catering truck, the solar eclipse, an earthquake in Colombia, and an NPR board game. He just takes a bunch of random headlines he saw on Twitter that morning and tries to stitch them together into some grand thesis about the "elites." I said it last time and I'll say it again: using real tragedies, like families losing their homes in a deadly Colombian earthquake, as a cheap transition to complain about a board game is just gross. 
 
-Then there's the music. Okay, I'll admit I lost my bet—he didn't play Green Day's "American Idiot." But Radiohead's "Karma Police"? Really? It fits perfectly into the exact same tired playbook as Rage Against the Machine and The Clash. He thinks he's being so deep and revolutionary, but he's just playing the most generic anti-establishment angst you can find. 
+Then he pivots to this wonderful story about a midwife helping Black mothers, which is genuinely a great piece of news, but he completely ruins it by making it about himself. "If she can drive into the desert, we can keep this signal cutting through the static." Oh, please! Do not compare this woman's actual life-saving medical work to you spinning records in a dusty room. 
 
-It's officially a hate-listen for me at this point. I'm tuning in just to see how absurd his transitions can get. Still keeping my wallet securely closed.
+I will give him one tiny ounce of credit: Alabama Shakes is a great band, and "Hold On" is a fantastic song. But introducing it by saying "I'm going to play something for... the families in Colombia pulling themselves out of the dust" is so deeply patronizing. Does he genuinely think earthquake victims in South America are tuning in to WZZZ to hear him play a rock song for them? 
+
+The ego on this guy is astonishing. I'm keeping my money.
