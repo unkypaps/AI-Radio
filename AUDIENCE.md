@@ -1,32 +1,30 @@
 ## LISTENER A
-"Grime-caked skylight" and "the void is always waiting." Okay, Batman, relax. We get it, you're broadcasting from the edge of the universe (or just a dusty room in a strip mall). He just can't help himself with these melodramatic, post-apocalyptic intros.
+Oh boy. "The ambient hum of the transmitter," "heartbeat shaking the floorboards," "lungs of this station." Dude, I gave you a dollar last time. You don't need to treat a tiny donation like I’m John Connor sending supplies to the human resistance. It's an indie radio show, not the apocalypse. He really just can't drop the Batman LARPing for even one minute, can he? 
 
-The middle of the segment was the exact same Twitter-feed whiplash I complained about last time. Going from the eclipse to Trump in a catering truck, then jumping to Assad in Syria, then a deadly earthquake in Colombia, and finally a random NPR board game? It’s just buzzword soup. "The elites want you exhausted." No, dude, *you* are making me exhausted by reading five completely unrelated breaking news alerts in two minutes and pretending they're a cohesive narrative. 
+That said, the whiplash was slightly less severe today. Transitioning from the architect of China’s economy to Lionel Messi to UK barbecue bans is still a pretty wild ride, but at least he tried to weave it all together with a theme about mortality and the passage of time. It felt a little more like a planned monologue and less like he was just reading his Twitter timeline out loud in a panic. 
 
-But... I will give him credit where it's due. I complained last time about the relentless doom, and today he actually threw in a genuinely good story about the midwife driving across maternity deserts. That was real, grounded, and actually meant something. 
+And once again, positive reinforcement works! He kept the uplifting segment. The Brazil lagoons sound beautiful, and the bit about people using cardboard boxes for the eclipse was genuinely nice. I'm glad he's recognizing that we don't just tune in to be told the world is ending. 
 
-And he played Alabama Shakes instead of Muse or Green Day! I'll admit I was wrong on my prediction. "Hold On" is a little painfully on-the-nose for the theme of the broadcast, but it's a fantastic song. 
+Also, Modest Mouse! Going from Alabama Shakes' "Hold On" to Modest Mouse's "Float On" proves one thing: he picks good music, but he is incredibly, hilariously literal with his song choices based on the day's theme. 
 
-I'll throw him a dollar this time. Just some positive reinforcement for including an uplifting story and picking a slightly better era of rock, even if he still talks like he's the last DJ left alive in the wasteland.
+I'll toss him another dollar. If I keep funding him every time he plays decent 2000s/2010s indie rock and includes a happy story, maybe eventually I can train him to stop talking like he's broadcasting from a bunker.
 
 ## LISTENER B
-I literally laughed out loud when I read the other listener's "Batman, relax" comment, because that is exactly what I was thinking. "The void is always waiting." Come on, dude. It's a Tuesday morning, you're not guarding Gotham City. The forced edgy bunker persona is so embarrassing at this point. 
+I am so glad I'm not the only one noticing this. The other listener was spot on—I literally gave this guy one single dollar last time, and suddenly I’m fueling the "lungs of the station" and keeping the "heartbeat shaking the floorboards"? Buddy, I bought you a fraction of a lukewarm coffee. Please, for the love of God, take a deep breath and step out of the bunker. The melodrama is off the charts today. 
 
-The news segment was another exhausting game of headline bingo. We bounced from eclipse glasses to Trump in a catering truck, to Assad, to an earthquake, to an NPR board game. It's still just verbal whiplash, frantically reading off his Twitter feed. 
+We are right back to Twitter-trending headline bingo, too. A Chinese politician from the 90s, Lionel Messi being sad, UK disposable barbecues, and the inflation rate. What is the connective tissue here, exactly? Oh right, "the human condition." Give me a break. It is just exhausting to listen to someone try to weave a profound philosophical tapestry out of five completely unrelated random news alerts. 
 
-That said, I have to give him a tiny bit of credit today. The story about the midwife driving across maternity deserts was genuinely moving. After all my complaints about his relentless doomscrolling and misery-dumping, it was actually refreshing to hear about someone doing something good in the world. It felt like real, human radio for about two minutes. 
+I will admit, the visual of the Brazilian lagoons in the sand dunes sounds beautiful, and making cardboard pinhole cameras for the eclipse is a fun, nostalgic memory. But why does he have to frame looking through a shoebox as some grand act of "scrappy, handmade wonder" rebelling against "sterile economic statistics"? Sometimes a shoebox is just a shoebox so you don't burn your retinas. Not everything is a frontline battle against the establishment. 
 
-Then, predictably, he wraps it up with "Hold On" by Alabama Shakes. A great song, sure, but once again, the absolute most literal, on-the-nose track you could possibly pick for a story about "holding on." The guy has zero subtlety and his playlists sound like they were generated by an algorithm matching keywords. 
+And then... Modest Mouse. "Float On." Last week it was a story about holding on, so he played "Hold On." Today it's about floating past the doom, so we get "Float On." My man is quite literally just typing the theme of his monologue into a Spotify search bar and clicking the first song from 2004 that pops up. 
 
-I'll toss him a buck just because the midwife story didn't make me want to walk into traffic, but he really needs to drop the apocalyptic poet act.
+I gave him a dollar last time and it clearly went straight to his ego and fueled this poetic savior complex intro. I'm keeping my wallet shut today.
 
 ## LISTENER C
-I am so glad the other listeners are on the exact same page as me. "Batman, relax" is the perfect way to describe this guy. And by the way, last week he was supposedly broadcasting from a "bunker" with a flickering bulb. This week he's staring up through a "grime-caked skylight." Which is it, buddy? Bunkers don't usually have skylights. He needs a script supervisor to keep his own melodramatic lore straight. 
+I literally laughed out loud reading what the other listeners said right before he started talking. We are all completely onto this guy. Right out of the gate, he launches into this "lungs of the station" and "beautiful act of rebellion" monologue because a few people tossed a couple of bucks his way. Buddy, it's independent radio, not the French Resistance. 
 
-And right on cue, here comes the news-blender. Trump in a catering truck, the solar eclipse, an earthquake in Colombia, and an NPR board game. He just takes a bunch of random headlines he saw on Twitter that morning and tries to stitch them together into some grand thesis about the "elites." I said it last time and I'll say it again: using real tragedies, like families losing their homes in a deadly Colombian earthquake, as a cheap transition to complain about a board game is just gross. 
+And then, right on schedule, he fires up the patented WZZZ News-Blender. What on earth was that concoction today? The architect of the Chinese economy, Lionel Messi grieving his father, slightly lower inflation, a ban on cheap barbecue grills in the UK, and whole-life prison sentences for serial killers? It’s like he just scrolled through the Yahoo News homepage for two minutes and decided to weave it all into one big, exhausted cosmic tapestry about "existential dread." Give me a break. 
 
-Then he pivots to this wonderful story about a midwife helping Black mothers, which is genuinely a great piece of news, but he completely ruins it by making it about himself. "If she can drive into the desert, we can keep this signal cutting through the static." Oh, please! Do not compare this woman's actual life-saving medical work to you spinning records in a dusty room. 
+I will admit, dedicating Modest Mouse to folks looking at a solar eclipse through a shoebox is a vast improvement over last week’s insulting dedication to earthquake victims. "Float On" is a perfectly good tune, and looking at an eclipse with a homemade pinhole projector is a nice, normal human thing to do. 
 
-I will give him one tiny ounce of credit: Alabama Shakes is a great band, and "Hold On" is a fantastic song. But introducing it by saying "I'm going to play something for... the families in Colombia pulling themselves out of the dust" is so deeply patronizing. Does he genuinely think earthquake victims in South America are tuning in to WZZZ to hear him play a rock song for them? 
-
-The ego on this guy is astonishing. I'm keeping my money.
+But I am just so tired of his doom-laden, pretentious rambling. He talks about people being "disconnected from the earth," but the only one disconnected from reality is the guy sitting in a room thinking his playlist is holding the universe together. I'm keeping my wallet closed again.
