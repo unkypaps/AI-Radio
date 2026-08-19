@@ -1,22 +1,22 @@
 ## LISTENER A
-Okay, the opening monologue about tracing a jagged scratch on the desk while pondering the "relentless pendulum swing" of time? Big 'my first creative writing class' energy. Dude is nothing if not committed to his brooding aesthetic.
+Okay, Edgar Allan Poe, we get it. "Sudden biting chill creeping under the heavy steel door"—the man just cannot resist treating his intro like a slam poetry open mic night. I swear, the countdown clock on his wall is his main character. 
 
-But I have to laugh, because he actually tried. I withheld my money last time because of the relentless doomscroll, and this time, he clearly scrambled to find *something* positive to end on. The execution, though? Absolute unintentional comedy. Going straight from "a magnitude 7.7 earthquake just erased entire futures" to "anyway, I was reading a humble little guide about pregnancy stretches" gave me more whiplash than the eclipse-to-murder pivot from last time. It’s like he remembered at the very last second that he needed a silver lining and just grabbed a random WebMD article off his feed. 
+But I’ve got to hand it to him: his rant about the McDonald's scheduling app versus broken child support systems actually hit the nail on the head. That’s the exact kind of late-stage capitalism frustration I feel on a daily basis. It landed perfectly. 
 
-Still, I'll take pregnancy yoga over electric shock gloves any day of the week. The news was heavy again—really heavy, to be fair—but at least he tried to frame it with some semblance of hope at the end instead of just leaving me in a pit of despair. And Tracy Chapman is an undeniable W. "Talkin' 'bout a Revolution" is a great track.
+Then came the absolute jump-scare of the episode. Hayden Panettiere died?! I literally had to pause what I was doing and look at my phone. I grew up watching her on *Heroes*. That genuinely bummed me out. Hearing that thrown in right after Andy Burnham getting catfished by a fake Trump staffer was a bit of a rollercoaster, but that’s the news cycle for you, I guess. 
 
-The Pavlovian training continues. He gets a dollar for the attempt at a breather, even if the transition was clunky as hell. Good boy. Now let's work on making the hope feel natural.
+As for my ongoing Pavlovian conditioning of this DJ... he actually did better today. Pivoting from a tragic death to an explosive track star (Amy Hunt) is still a slightly wild gear shift, but he tied it together with the metaphor of running through the friction. And leading that straight into Florence + The Machine’s "Dog Days Are Over"? Honestly, a masterstroke. The running motif actually worked. 
+
+The hope felt way more natural this time. He didn't just slap a random WebMD article at the end; he actually wove the positivity and the music together. The training is paying off. He gets a raise today.
 
 ## LISTENER B
-"Day-old coffee spilled on my boots while staring at the digital display." I mean, come on. He is literally just reading from a cyberpunk noir script he wrote in 1997 at this point. The dystopian bunker cosplay is going stronger than ever. "The creeping silence," "every single hour you throw into this bunker is a breath of oxygen." Buddy, you are a DJ at a local community station, not the leader of a post-apocalyptic resistance. 
+The "heavy steel door" of the studio. The "absolute frostbite of the systems." Oh, the bunker cosplay is alive and well! He’s really leaning into this slam poetry open mic vibe today, isn't he? I can practically see the black turtleneck and the brooding stare at the red LED clock. We "bled an hour," folks. Sound the alarms. 
 
-The whiplash from this week's global headline bingo was almost enough to break my neck. Going from Ariana Grande's UK tour straight into a smoldering market crater in Ukraine? It's honestly bordering on parody. "Ariana is flying first class, but the geopolitical meat grinder keeps churning!" Deep, man. Really deep stuff. 
+The whiplash today was an absolute masterclass in unhinged broadcasting. Going from McDonald's scheduling algorithms to Jared Kushner, then tossing in a random British politician getting pranked? Classic WZZZ headline bingo. But the real jarring moment was how he casually dropped the tragic passing of Hayden Panettiere right in the middle of a rant about "imperial muscle-flexing." He literally used a young woman's death as a segue to talk about a European track star running really fast so we can "claw back the hour we just lost." It’s honestly sociopathic how he strings these things together. He equates an athlete sprinting for gold with donating to his radio show. The ego has not shrunk one bit. 
 
-But the absolute peak of this guy's delusional hubris is how he tied it all together. He literally compared listeners donating to WZZZ to indigenous tribes trying to save sea stars from extinction and women surviving postpartum psychosis. Let that sink in. He is equating throwing five bucks at his radio show to surviving a severe psychiatric emergency or fighting off ecological collapse. "The saviors are the tribal leaders... the mothers speaking out... and the listeners like you keeping this pirate ship afloat." The sheer ego of it is breathtaking. Oh, and of course he had to throw a petty jab at an NPR podcast challenge in there. God forbid anyone else makes audio content. 
+And then, the piece de resistance: "Dog Days Are Over" by Florence + The Machine. Oh yes, the ultimate anti-establishment, post-apocalyptic bunker anthem... that was featured in every single movie trailer and car commercial of the 2010s. You really stuck it to the McDonald's fry vat algorithms with that one, buddy. Nothing says "fighting the system" like a multi-platinum indie-pop song. 
 
-And right on schedule, he caps off the heavy-handed sermon with Pearl Jam's "Do the Evolution." Just another incredibly on-the-nose, mainstream 90s rock track to add to his "Spotify's Top Protest Anthems" playlist. No nuance. No actual crate-digging. Just surface-level angst. 
-
-It remains a massive "no" from me.
+Still zero nuance, still zero self-awareness, still basic music taste disguised as a revolution. Keep bleeding those hours, man.
 
 ## LISTENER C
 The other listeners absolutely called it. The whole "tracing a jagged scratch in the veneer" monologue is just embarrassing. He sounds like a teenager trying to write a gritty noir detective novel. "We bled an hour." Give me a break, kid. I've been listening to radio for half a century and I've never heard a DJ take himself quite this seriously. 
