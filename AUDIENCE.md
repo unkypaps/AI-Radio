@@ -1,26 +1,24 @@
 ## LISTENER A
-Wow, another massive jump! 15 hours added this time. Hitting 280 is wild—I really feel like this station is catching fire right now and people are tuning in. 
+Man, this one was a literal gut punch. I actually stopped what I was doing when he said Dolly Parton died. I know I'm young and she's technically from my parents' or grandparents' era of music, but Dolly is just a universal, untouchable icon. Her sending free books to kids through the Imagination Library is something I've always admired. The way the DJ contrasted her philanthropy with Meta paying a $17 billion fine for strip-mining kids' mental health? That was incredibly sharp. It really framed how bleak the tech dystopia is right now. 
 
-The stuff about the extreme heat and the grid failing hits super close to home. The fact that they're talking about rearranging school calendars because classrooms are too hot is just peak modern dystopia. And Trump claiming Canada wants to be a US state is exactly the kind of unhinged, elite clownery I've come to expect. It's so absurd, but the DJ always does a great job of contrasting that playground nonsense with real, heavy issues like the unjustified federal agent shooting in Memphis and the storms in Hawaii. 
+I'm totally with him on the media distractions, too. I could not care less about Harry and Meghan landing in the UK. Why are we talking about wealthy royals when there are literal avalanches wiping out villages in Nepal and trade wars screwing over normal people? It's exhausting. 
 
-He's striking a really good balance lately. He's calling out corrupt systems and out-of-touch politicians without spiraling into the weird tinfoil-hat territory that annoyed me a few weeks ago. 
-
-And following up the Smashing Pumpkins from last time with Soundgarden today? Great choice. "Rusty Cage" is an absolute banger. The 90s alt/grunge streak he's on is totally working for me. Keeping the momentum going!
+I've been loving the 90s grunge streak he's been on, but dropping the alt-rock format to play "Light of a Clear Blue Morning" was the only right move tonight. The DJ showed so much heart here. It wasn't just him being angry at the system; it was him mourning something genuinely good that the world lost. It felt really authentic and grounded. Definitely one of his best broadcasts.
 
 ## LISTENER B
-No royal family gossip today? I'm genuinely a little disappointed! I was starting to hope the Harry and Meghan watch was going to become a permanent WZZZ segment. 
+Wow. Dolly. I was just driving to the store when he announced it and I genuinely had to pull over for a second. You just kind of assume someone like her is going to live forever. 
 
-That being said, he is absolutely killing it with the music lately. Smashing Pumpkins last time, Soundgarden's "Rusty Cage" today? My teenage self is thriving. It's the exact right energy for this kind of broadcast. 
+It's funny, last time I was actually missing his rants about the royal family, but hearing him tear into the media for covering Harry and Meghan today while Nepal is dealing with catastrophic floods and mudslides... yeah, he's completely right. Puts my guilty pleasure firmly in its place. Who cares about tabloid drama when the world is actually crumbling? 
 
-The rant today felt really cohesive. I liked how he transitioned from the literal heat of his bunker amplifiers straight into the global heatwaves and crumbling infrastructure. It's crazy to think about schools having to change their calendars because the buildings are basically ovens now. The Trump comment about Canada secretly wanting to be a US state is exactly the kind of geopolitical absurdity that this DJ thrives on, too. 
+The Meta settlement piece is absolutely sickening. Seventeen billion dollars is just pocket change for a company that size. The contrast he drew between Dolly giving out free books to kids and Silicon Valley building digital cages to trap them was honestly brilliant. It really highlights what we just lost. 
 
-It was a heavy episode—especially the Memphis bodycam coverup stuff—but just like last time, I appreciate that he anchors the doom and gloom with a reminder about community. The shoutout to Hawaii and regular people filling sandbags for each other is the kind of stuff that keeps me tuning in. It's a dark world out there, but he always manages to find a sliver of humanity in it. Solid broadcast today.
+I'm usually here for the 90s alt-rock and grunge he's been playing lately, but bumping the usual playlist for "Light of a Clear Blue Morning" was exactly the right move. It takes a lot of integrity to throw out the planned show to pay respect properly. I had tears in my eyes listening to that track. A beautiful, heavy, necessary broadcast.
 
 ## LISTENER C
-I have to agree with the other listener—I was secretly hoping for another royal family update! I'd grown quite fond of our basement revolutionary's obsession with Meghan Markle. Instead, we got a very heavy dose of doom, gloom, and extreme weather. 
+I was pouring my coffee when he announced Dolly passed. I actually had to set the pot down and go turn on the TV in the living room just to make sure he wasn't exaggerating. Lord, what a terrible loss. She's been a fixture in this country for my entire adult life. Losing Dolly really does feel like losing a piece of America's soul. 
 
-The "News-Blender" was certainly running hot today, quite literally. Extreme heat in schools, UK train delays, Trump popping off about Canada, Hawaiian storms, California politics... the kid weaves it all together into his usual "the sky is falling and the elites are pushing it" narrative. You really do have to admire his stamina. I picture him with ten different newspaper clippings tacked to the walls of that bunker with red string connecting them all. 
+I have to hand it to the bunker kid today, he completely nailed the tribute. Comparing Dolly's book program for children to these Silicon Valley billionaires getting slapped with a $17 billion fine for ruining kids' mental health was a very sharp, poignant observation. It felt genuinely thoughtful, much more than his usual red-string conspiracy theories. 
 
-As for the music, Soundgarden is a bit heavy for my morning coffee. I remember Johnny Cash covering "Rusty Cage" years ago on one of his later albums, and I definitely prefer the Man in Black's acoustic version over all that Seattle screeching. But I suppose the loud guitars fit the kid's sweaty, angsty vibe perfectly today. 
+And I couldn't help but laugh out loud into my mug—I got my royal family update after all! He goes on and on about how it's grotesque that the media focuses on Meghan and Harry's UK itinerary while there's an avalanche in Nepal, but he just can't keep their names out of his mouth. He protests too much; I'm convinced he secretly loves keeping tabs on the tabloids just as much as the rest of us. 
 
-With 280 hours banked, he's clearly rolling in donations from other folks, so he definitely doesn't need my retirement fund. It wasn't as funny as his last broadcast without the pop culture hypocrisy, but it's still vastly more entertaining than watching the squawking heads on morning cable news. I'll toss him a buck for the effort.
+Skipping the screechy Seattle alt-rock to play "Light of a Clear Blue Morning" was exactly what the doctor ordered today. It was a classy move and showed some real heart. It's a sad morning, but this was a beautiful broadcast. I'm bumping up my usual contribution today. He earned it.
